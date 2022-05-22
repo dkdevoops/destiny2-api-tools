@@ -1,0 +1,3069 @@
+{
+  
+    "environment": "live",
+    "systems": {
+      "CookieConsent": {
+        "enabled": true,
+        "parameters": { "CookieName": "bunglecst" }
+      },
+      "MobileAnalyticsSampleRate": {
+        "enabled": true,
+        "parameters": { "iosRate": "50.0", "androidRate": "50.0" }
+      },
+      "iosVersion": {
+        "enabled": true,
+        "parameters": { "MinVersionMajor": "0" }
+      },
+      "androidVersion": {
+        "enabled": true,
+        "parameters": { "MinVersionMajor": "0" }
+      },
+      "MobileVersionControl": { "enabled": true, "parameters": {} },
+      "MobileGeariOS": { "enabled": true, "parameters": {} },
+      "MobileGearAndroid": { "enabled": true, "parameters": {} },
+      "MobileGear": { "enabled": true, "parameters": {} },
+      "MobileAppUpdatePromptiOS": { "enabled": true, "parameters": {} },
+      "MobileAppUpdatePromptAndroid": { "enabled": true, "parameters": {} },
+      "MobileAppUpdatePrompt": { "enabled": true, "parameters": {} },
+      "MobileClients": { "enabled": true, "parameters": {} },
+      "PSNLiveTiles": { "enabled": true, "parameters": {} },
+      "DestinyExplorer": { "enabled": true, "parameters": {} },
+      "Trending": { "enabled": true, "parameters": {} },
+      "Explore": { "enabled": false, "parameters": {} },
+      "D2ProfilesInternal": { "enabled": false, "parameters": {} },
+      "PartnerOfferClaims": {
+        "enabled": true,
+        "parameters": {
+          "TwitchRewardsAppId": "35655",
+          "PrimeGamingAppId": "35654",
+          "DonorDriveAppId": "38509",
+          "NeteaseUUBoosterAppId": "38424"
+        }
+      },
+      "EverversePurchaseHistory": { "enabled": true, "parameters": {} },
+      "CodeRedemptionReact": { "enabled": true, "parameters": {} },
+      "BungieTokens": { "enabled": true, "parameters": {} },
+      "D2Manifest": { "enabled": true, "parameters": {} },
+      "DestinyMarketingPages": {
+        "enabled": true,
+        "parameters": { "ShowForsakenSale": "false" }
+      },
+      "PlaystationPreorder": {
+        "enabled": true,
+        "parameters": {
+          "PlaystationPreorderDate": "2020-06-30 10:00-8:00",
+          "Stardust": "beyondlight"
+        }
+      },
+      "Season14PageUpdate": {
+        "enabled": true,
+        "parameters": {
+          "ShowSilverBundles": "2021-05-11 10:00-7:00",
+          "UpdateSilverBundleBtn": "true"
+        }
+      },
+      "StadiaLimited": {
+        "enabled": true,
+        "parameters": { "StadiaReleaseDate": "2019-11-19 10:00-8:00" }
+      },
+      "BuyFlowGetStartedContent": {
+        "enabled": true,
+        "parameters": { "Item1": "playforfree", "Item2": "silverbundle" }
+      },
+      "CrossSaveStadiaSeasonsException": { "enabled": true, "parameters": {} },
+      "CrossSaveEntitlementTables": { "enabled": true, "parameters": {} },
+      "CrossSave": {
+        "enabled": true,
+        "parameters": {
+          "CrossSaveIntroBlock": "47855",
+          "CrossSaveFaqBlock": "47858",
+          "CrossSaveMSHelp": "https://help.bungie.net/hc/articles/4403617844628",
+          "CrossSaveUserAgreementTag": "cross save agreement",
+          "FaqFirehoseArticleId": "47922",
+          "CrossSaveResetAuth": "true",
+          "CrossSaveHelpStepId": "48099"
+        }
+      },
+      "DestinyLinkedProfiles": { "enabled": true, "parameters": {} },
+      "D2EntitySearch": { "enabled": true, "parameters": {} },
+      "D2Year1Triumphs": { "enabled": false, "parameters": {} },
+      "D2Vendors": {
+        "enabled": true,
+        "parameters": {
+          "IgnoreVendorHashes": "3354631265,3819664660,2260557667,1944634565"
+        }
+      },
+      "D2PublicMilestones": { "enabled": true, "parameters": {} },
+      "D2MilestoneContent": { "enabled": true, "parameters": {} },
+      "D2Milestones": { "enabled": true, "parameters": {} },
+      "D2Characters": { "enabled": true, "parameters": {} },
+      "D2Profiles": { "enabled": true, "parameters": {} },
+      "D2Items": { "enabled": true, "parameters": {} },
+      "D2ReturnAvailablePlugs": { "enabled": false, "parameters": {} },
+      "D2ReadActions": { "enabled": true, "parameters": {} },
+      "D2SubmitReport": { "enabled": true, "parameters": {} },
+      "D2EquipItem": {
+        "enabled": true,
+        "parameters": { "OfflineEquipOnly": "false" }
+      },
+      "D2TransferItem": { "enabled": true, "parameters": {} },
+      "D2PullFromPostmaster": { "enabled": true, "parameters": {} },
+      "D2SetItemLockState": { "enabled": true, "parameters": {} },
+      "D2BuyItem": {
+        "enabled": true,
+        "parameters": { "D2BuyItemBountiesHelpArticleContentId": "49485" }
+      },
+      "D2Refund": { "enabled": false, "parameters": {} },
+      "D2SetQuestTrackedState": {
+        "enabled": true,
+        "parameters": { "MaxTrackedQuests": "4" }
+      },
+      "D2InsertPlugs": { "enabled": true, "parameters": {} },
+      "D2InsertPlugsFree": { "enabled": true, "parameters": {} },
+      "ClaimSeasonPassReward": { "enabled": true, "parameters": {} },
+      "D2DismantleItem": { "enabled": false, "parameters": {} },
+      "D2WriteActions": { "enabled": true, "parameters": {} },
+      "D2DrivenLiveTiles": { "enabled": true, "parameters": {} },
+      "LegacyConsoleDeprecation": { "enabled": true, "parameters": {} },
+      "DestinyVersionDeprecation": { "enabled": true, "parameters": {} },
+      "D2ReferAFriend": {
+        "enabled": false,
+        "parameters": { "ReferAFriendQuestItemHash": "0" }
+      },
+      "Destiny2": { "enabled": true, "parameters": {} },
+      "PrivacyAuthCheck": {
+        "enabled": true,
+        "parameters": { "CurrentPrivacyVersion": "6" }
+      },
+      "ZendeskArticleLocales": {
+        "enabled": true,
+        "parameters": { "en": "en-us", "zh-chs": "zh-cn", "zh-cht": "zh-tw" }
+      },
+      "ZendeskHelpArticleUrl": {
+        "enabled": true,
+        "parameters": {
+          "TemplateUrl": "https://help.bungie.net/hc/{locale}/articles/{articleId}"
+        }
+      },
+      "Applications": { "enabled": true, "parameters": {} },
+      "RegistrationBenefitsContentVersion2": {
+        "enabled": false,
+        "parameters": {}
+      },
+      "RegistrationBenefitsEnabled": { "enabled": true, "parameters": {} },
+      "RegistrationUpsellContentVersion2": {
+        "enabled": false,
+        "parameters": {}
+      },
+      "RegistrationNavVersion2": { "enabled": true, "parameters": {} },
+      "SignInLearnMore": { "enabled": false, "parameters": {} },
+      "RegistrationUI": { "enabled": true, "parameters": {} },
+      "AccountCreation": { "enabled": true, "parameters": {} },
+      "PSNAuth": { "enabled": true, "parameters": {} },
+      "MsaXbox": { "enabled": true, "parameters": {} },
+      "XuidAuth": { "enabled": true, "parameters": {} },
+      "WLIDAuth": { "enabled": false, "parameters": {} },
+      "GoogleAuth": { "enabled": false, "parameters": {} },
+      "FacebookAuth": { "enabled": false, "parameters": {} },
+      "SteamIdAuth": { "enabled": true, "parameters": {} },
+      "StadiaIdAuth": { "enabled": true, "parameters": {} },
+      "Twitch": { "enabled": true, "parameters": {} },
+      "Blizzard": { "enabled": false, "parameters": {} },
+      "MobileShowOAuth": { "enabled": true, "parameters": {} },
+      "MobileShowLegacyAuth": { "enabled": false, "parameters": {} },
+      "SmsVerification": { "enabled": true, "parameters": {} },
+      "PCMigrationGlobalAlertsBar": { "enabled": false, "parameters": {} },
+      "PCMigrationSunsetPhase1": { "enabled": false, "parameters": {} },
+      "PrePCMigration": { "enabled": false, "parameters": {} },
+      "PCMigrationLoginInterrupt": {
+        "enabled": false,
+        "parameters": {
+          "PCMigrationSteamLocalStorageKey": "show-pcmigration-steam-interrupt",
+          "PCMigrationBlizzardLocalStorageKey": "show-pcmigration-blizzard-interrupt"
+        }
+      },
+      "PCMigrationEmailValidation": { "enabled": false, "parameters": {} },
+      "PCMigrationEntitlements": { "enabled": false, "parameters": {} },
+      "PCMigration": {
+        "enabled": false,
+        "parameters": {
+          "PCMigrationIntroBlock": "47854",
+          "PCMigrationFaqBlock": "47857"
+        }
+      },
+      "PCMigrationYoutubeIdFallback": {
+        "enabled": true,
+        "parameters": {
+          "en": "0LWcq4KHxu4",
+          "de": "TcShrvOKZTI",
+          "es": "slN2hm5Xffc",
+          "es-mx": "ZurWcAdv6M8",
+          "fr": "9XBeSj2PArE",
+          "it": "eDphVDpnhak",
+          "ja": "3i4V_O6z_G8",
+          "ko": "l8-Z5C3NldI",
+          "pl": "y28iGUVYiS0",
+          "pt-br": "2BCK6WENYLs",
+          "ru": "VHqtrHq4XY8",
+          "sv": "0LWcq4KHxu4",
+          "zh-chs": "nUMtBUn0IF8",
+          "zh-cht": "Knv3t-C99ss"
+        }
+      },
+      "Authentication": {
+        "enabled": true,
+        "parameters": { "LocalDomainHost": "local-admin.bungie.bng.local" }
+      },
+      "PlayTestsSetting": { "enabled": true, "parameters": {} },
+      "AccountServices": { "enabled": true, "parameters": {} },
+      "GamescomVideo": {
+        "enabled": true,
+        "parameters": {
+          "en": "LFYJTudJ540",
+          "de": "4Miwp8iWUrA",
+          "es": "J3NBNfOtZDg",
+          "es-mx": "KZjjKW_Qwck",
+          "fr": "lweNNTLKfhE",
+          "it": "MJA-7HOKY4c",
+          "ja": "4iLfXwE7R68",
+          "ko": "L76LQ6x37Ds",
+          "pl": "BsNLAAeFv6Q",
+          "pt-br": "VLnNlro86UI",
+          "ru": "9TaI26f0NoQ",
+          "sv": "LFYJTudJ540",
+          "zh-chs": "2H6ME2r8Ig0",
+          "zh-cht": "aElJBqyev0o"
+        }
+      },
+      "LunaVideo": {
+        "enabled": true,
+        "parameters": {
+          "en": "pAHlhmGTvj8",
+          "de": "aek6rbUnrMA",
+          "es": "Cs9D1o5kNos",
+          "es-mx": "GWGsN68NB-8",
+          "fr": "icsaV5Yh5yk",
+          "it": "olSFalaH0yI",
+          "ja": "zjpYCwteaYo",
+          "ko": "i9ANvBwYmlI",
+          "pl": "PbA4JlrN_pY",
+          "pt-br": "0AS5z13SDyY",
+          "ru": "Xvdwia1_8jE",
+          "sv": "pAHlhmGTvj8",
+          "zh-chs": "5UQcBjxvls8",
+          "zh-cht": "Of_kLFTwvdM"
+        }
+      },
+      "SeasonUndyingVideo": {
+        "enabled": true,
+        "parameters": {
+          "en": "G8mC5GaDoyQ",
+          "de": "fVETlXeH4Fg",
+          "es": "KDZEfx7lFZM",
+          "es-mx": "YwNxs0ZIfIk",
+          "fr": "na0gW38DEnE",
+          "it": "JX7KWhl6Nxk",
+          "ja": "qfvqWxeH408",
+          "ko": "Rs_jFfZV2cQ",
+          "pl": "CMRlu71Y-xQ",
+          "pt-br": "7y0IU4eNxns",
+          "ru": "AG8xpHfejao",
+          "sv": "G8mC5GaDoyQ",
+          "zh-chs": "dnhjE4EHE1g",
+          "zh-cht": "0BwRG-bu5Ig"
+        }
+      },
+      "shadowKeepRevealTrailerVideo": {
+        "enabled": true,
+        "parameters": {
+          "en": "xjVgKG465F8",
+          "de": "fQU6qFxenPU",
+          "es": "2bjiWBkEEq8",
+          "es-mx": "M20sG0aJKdE",
+          "fr": "Oi3Mo4OQiVo",
+          "it": "UF7VBLi_Y4w",
+          "ja": "nNZlw1anYqk",
+          "ko": "mCc8Ef5e4-0",
+          "pl": "D7Zk9j1YtCg",
+          "pt-br": "UZLs0Nss950",
+          "ru": "8CKSuOiTEWk",
+          "sv": "",
+          "zh-chs": "FzYlfTVCs1o",
+          "zh-cht": "g5xLr1r4350"
+        }
+      },
+      "SeasonHuntYoutube": {
+        "enabled": true,
+        "parameters": {
+          "en": "A32M1Lz9eIY",
+          "de": "wL2l6qlwFA0",
+          "es": "pCzBq1DFaJc",
+          "es-mx": "HcIL8KrFMTc",
+          "fr": "Djjod2l0FHY",
+          "it": "8CwPdyrLmVI",
+          "ja": "vVo1kZ7g3vc",
+          "ko": "U9qsvA0-ne8",
+          "pl": "lu2zJfnrr8s",
+          "pt-br": "BcUO-6uL9Oo",
+          "ru": "qhBYw5XKkwU",
+          "sv": "",
+          "zh-chs": "z2O3iW7FCQk",
+          "zh-cht": "8G0UMfYCpOg"
+        }
+      },
+      "SeasonHuntSeasonPassYoutube": {
+        "enabled": true,
+        "parameters": {
+          "en": "RL802WKYnJk",
+          "de": "FPNNI1-HopY",
+          "es": "4BW7Z1rt4BE",
+          "es-mx": "ihI96tyTyss",
+          "fr": "esILQMpp9vA",
+          "it": "lyYoF4csWxQ",
+          "ja": "S6b8z215E7k",
+          "ko": "UQ82sOVeFIs",
+          "pl": "va5woOSW2YY",
+          "pt-br": "PZu8V5Xykes",
+          "ru": "lvnpX7tm7iE",
+          "sv": "",
+          "zh-chs": "SyowitprbUk",
+          "zh-cht": "RaOwQCzZd_c"
+        }
+      },
+      "SeasonHuntHawkmoonTrailer": {
+        "enabled": true,
+        "parameters": {
+          "en": "IvEa4m7k_WU",
+          "de": "9Qye8OaNHek",
+          "es": "Nyeslrqs-Qg",
+          "es-mx": "yeZ5wWypTzI",
+          "fr": "q6PQaqoj56I",
+          "it": "L_OH_VMB1FI",
+          "ja": "TafHCzTHo8I",
+          "ko": "fLXRb01zYTY",
+          "pl": "1u65iJMKYZ0",
+          "pt-br": "gw9dmJ9383k",
+          "ru": "p2vn5EX8KfY",
+          "sv": "",
+          "zh-chs": "3gDGTj2b4Gg",
+          "zh-cht": "N2YbAWkoPO0"
+        }
+      },
+      "ProvingGroupsTrailer": {
+        "enabled": true,
+        "parameters": {
+          "en": "SZbpPwC6x-g",
+          "de": "4TU2uBG_4Qs",
+          "es": "c9bwpo9Da0I",
+          "es-mx": "C4fPaBMJBsg",
+          "fr": "ARY44e1js-E",
+          "it": "88Fc21F4esU",
+          "ja": "B_7h5Q1UcjQ",
+          "ko": "xHMuFYS87Dg",
+          "pl": "d-qHTiGHfDo",
+          "pt-br": "TJ-4o34E554",
+          "ru": "9r34f6HfPTc",
+          "sv": "",
+          "zh-chs": "xk1mPHnnuIg",
+          "zh-cht": "4h6rm0t4qYg"
+        }
+      },
+      "ShadowkeepLocalizedYoutubeIds": { "enabled": true, "parameters": {} },
+      "BeyondLightRevealYoutube": {
+        "enabled": true,
+        "parameters": {
+          "en": "h-5S82ETKvI",
+          "de": "qsyO7zQQ5Wg",
+          "es": "jC7ZDNYGJKs",
+          "es-mx": "aWmGBBECdP8",
+          "fr": "Kwn9KOSHOF0",
+          "it": "-_LM2VXmMpI",
+          "ja": "aNzrTjh7mlE",
+          "ko": "a-0-6Oe0m5w",
+          "pl": "qhA5j2kprYE",
+          "pt-br": "VthaQbFevG0",
+          "ru": "rUFrDubozTc",
+          "sv": "",
+          "zh-chs": "QGDHkWUT6dc",
+          "zh-cht": "M4no2Cm6KO4"
+        }
+      },
+      "BeyondLightGamePlayYoutube": {
+        "enabled": true,
+        "parameters": {
+          "en": "Ms90okhAbTw",
+          "de": "vTaWGSDYA9c",
+          "es": "2AMkLkBKhLc",
+          "es-mx": "9Xpku6OQkhw",
+          "fr": "YZQUJ6IIhT8",
+          "it": "6A73dQnmIwA",
+          "ja": "SUOlGqA9xMw",
+          "ko": "UA7ojjM-1_8",
+          "pl": "MIZAAtZoEGw",
+          "pt-br": "3_XlBVxjoeo",
+          "ru": "Uqt2LfalE2w",
+          "sv": "",
+          "zh-chs": "PwkkGSGoBBk",
+          "zh-cht": "hZN2RBWEBYU"
+        }
+      },
+      "BeyondLightRevealStreamYoutube": {
+        "enabled": true,
+        "parameters": {
+          "en": "x8K6L1wr7fs",
+          "de": "L6FKcrBHg7o",
+          "es": "RW-DnkDFHAg",
+          "es-mx": "43USLJn_SZg",
+          "fr": "F4C1wFOw1Xs",
+          "it": "mg1Qd7xtV1M",
+          "ja": "poYIpl-mOdM",
+          "ko": "saI1kR7eTZE",
+          "pl": "D-Mq3w4rlfM",
+          "pt-br": "0vNe0Eqrlek",
+          "ru": "9C4OCF5jFTI",
+          "sv": "",
+          "zh-chs": "1Ng7B9x0TOg",
+          "zh-cht": "WFNwsE7X1PM"
+        }
+      },
+      "BeyondLightVidocYoutube": {
+        "enabled": true,
+        "parameters": {
+          "en": "qgnPREMEfI4",
+          "de": "_QSjXyVphdI",
+          "es": "sXV0wpPA4J8",
+          "es-mx": "QhklnbwDgUs",
+          "fr": "ivclVGjb29U",
+          "it": "YX1lvVy-RRw",
+          "ja": "qkrV8pbKIlc",
+          "ko": "R2Qvtzdwphk",
+          "pl": "6PI-IEXZEMo",
+          "pt-br": "Q_34hFEKX2A",
+          "ru": "matAL4m2BSc",
+          "sv": "",
+          "zh-chs": "EnvTl5kiyzY",
+          "zh-cht": "aMEyCtQ2wRM"
+        }
+      },
+      "BeyondLightLocalizedYoutubeIds": { "enabled": true, "parameters": {} },
+      "Profiles": { "enabled": true, "parameters": {} },
+      "Careers": { "enabled": true, "parameters": {} },
+      "Content": { "enabled": true, "parameters": {} },
+      "Activities": { "enabled": true, "parameters": {} },
+      "PlatformFriendBulkImporter": { "enabled": true, "parameters": {} },
+      "PlatformFriendImporter": { "enabled": true, "parameters": {} },
+      "BungieFriends": {
+        "enabled": true,
+        "parameters": {
+          "FriendsMiniThrottleMilliseconds": "1000",
+          "FriendsInviteMiniThrottleMilliseconds": "50",
+          "FriendThrottleExtraClientDelay": "20"
+        }
+      },
+      "FriendsXboxLive": { "enabled": true, "parameters": {} },
+      "FriendsPSN": { "enabled": true, "parameters": {} },
+      "FriendsSteam": { "enabled": true, "parameters": {} },
+      "ForumsWrite": { "enabled": true, "parameters": {} },
+      "CommunityHub": { "enabled": true, "parameters": {} },
+      "CommunityContentSubmissions": { "enabled": true, "parameters": {} },
+      "RecruitmentThreads": { "enabled": false, "parameters": {} },
+      "UserSelectsPostLocale": { "enabled": true, "parameters": {} },
+      "LocalizedPosts": { "enabled": true, "parameters": {} },
+      "Forums": { "enabled": true, "parameters": {} },
+      "GroupOptionalConversations": {
+        "enabled": true,
+        "parameters": { "MaxOptionalChatRooms": "5" }
+      },
+      "RecommendedGroupSearch": { "enabled": true, "parameters": {} },
+      "AutoCreateDestinyMembershipForClanJoin": {
+        "enabled": false,
+        "parameters": {}
+      },
+      "DestinyClanWrite": { "enabled": true, "parameters": {} },
+      "RecommendedClanSearch": { "enabled": true, "parameters": {} },
+      "ExactMatchClanSearchOnly": { "enabled": true, "parameters": {} },
+      "DestinyClanSearch": { "enabled": true, "parameters": {} },
+      "ScheduledFireteams": { "enabled": true, "parameters": {} },
+      "ClanFireteams": { "enabled": true, "parameters": {} },
+      "DestinyClans": { "enabled": true, "parameters": {} },
+      "WorldClanProgressions": { "enabled": true, "parameters": {} },
+      "Clans": {
+        "enabled": true,
+        "parameters": { "HelpArticleUrl": "/Help/Article/46119" }
+      },
+      "Groups": { "enabled": true, "parameters": {} },
+      "Ignores": { "enabled": true, "parameters": {} },
+      "Messages": { "enabled": true, "parameters": {} },
+      "Notifications": { "enabled": true, "parameters": {} },
+      "SeasonsAreaEvents": { "enabled": false, "parameters": {} },
+      "CoreAreaSeasons": {
+        "enabled": true,
+        "parameters": {
+          "SeasonOfTheUndyingLaunchTime": "2019-10-01T17:00:00",
+          "D2SeasonsFAQ": "48775"
+        }
+      },
+      "SeasonsFAQUrlByLocale": {
+        "enabled": true,
+        "parameters": {
+          "faq_en": "https://help.bungie.net/hc/en-us/articles/360060130092",
+          "faq_de": "https://help.bungie.net/hc/de/articles/360060130092",
+          "faq_es": "https://help.bungie.net/hc/es/articles/360060130092",
+          "faq_es-mx": "https://help.bungie.net/hc/es-mx/articles/360060130092",
+          "faq_fr": "https://help.bungie.net/hc/fr/articles/360060130092",
+          "faq_it": "https://help.bungie.net/hc/it/articles/360060130092",
+          "faq_ja": "https://help.bungie.net/hc/ja/articles/360060130092",
+          "faq_ko": "https://help.bungie.net/hc/ko/articles/360060130092",
+          "faq_pl": "https://help.bungie.net/hc/pl/articles/360060130092",
+          "faq_pt-br": "https://help.bungie.net/hc/pt-br/articles/360060130092",
+          "faq_ru": "https://help.bungie.net/hc/ru/articles/360060130092",
+          "faq_zh-chs": "https://help.bungie.net/hc/zh-cn/articles/360060130092",
+          "faq_zh-cht": "https://help.bungie.net/hc/zh-tw/articles/360060130092"
+        }
+      },
+      "WorldsFirstStream": {
+        "enabled": false,
+        "parameters": { "WorldsFirstReleaseDateTime": "2022-03-05T09:30-08:00" }
+      },
+      "DirectWorldsFirst": {
+        "enabled": false,
+        "parameters": {
+          "WorldsFirstUpsellBtnAnalyticsId": "vog-raid-race-upsell-btn"
+        }
+      },
+      "DestinyShowcase": {
+        "enabled": false,
+        "parameters": {
+          "StreamStartTime": "2021-08-24T07:30-07:00",
+          "RedirectPageOnShowcaseDisabled": "/WitchQueen"
+        }
+      },
+      "CoreAreaDirect": { "enabled": true, "parameters": {} },
+      "CoreAreaProfile": { "enabled": true, "parameters": {} },
+      "CoreAreaGroupUser": { "enabled": true, "parameters": {} },
+      "BeyondLightPhase1": { "enabled": true, "parameters": {} },
+      "BeyondLightPhase2": { "enabled": true, "parameters": {} },
+      "BeyondLightPhase3": { "enabled": true, "parameters": {} },
+      "BeyondLightPhase4": { "enabled": true, "parameters": {} },
+      "BeyondLightPhase5": { "enabled": false, "parameters": {} },
+      "BeyondLightIterations": { "enabled": true, "parameters": {} },
+      "WitchQueen": {
+        "enabled": true,
+        "parameters": {
+          "HeroTrailerAnalyticsId": "wq-top-trailer-btn",
+          "HeroPreOrderAnalyticsId": "wq-top-pre-order-btn",
+          "CollectorsEditionBtnAnalyticsId": "wq-collectors-edition-btn"
+        }
+      },
+      "CoreDestinyBuy": {
+        "enabled": true,
+        "parameters": { "DefaultTargetProduct": "FreeToPlay" }
+      },
+      "Season11Page": {
+        "enabled": true,
+        "parameters": {
+          "CalendarImage": "S11_Calendar_Calendar_{locale}.jpg?v=1",
+          "HeroTrailer": "{'de': 'fxbL5Gpuedc', 'en': '5tJwLjVfFPc', 'es': 'lZUSiMm8oSY', 'es-mx': 'D4Ji7fazpAg', 'fr': 'COlWYR4cDug', 'it': 'OTZJ9Lu3SJA', 'ja': '_-M_-Xq1X8U', 'ko':'h5HRkPkj58o', 'pl': 'zMP6BzQcPTA', 'pt-br': '_hUrDxmUzPA', 'ru': 'x-bv3MAPAHk', 'zh-cht': 'gP0UTSbhiPM', 'zh-chs': 'WOM4p6Tyz_w'}",
+          "ProphecyTrailer": "{'de': 'CG7yYGw4KMc', 'en': 'ManQHg9_MiU', 'es': 'nxyBjuucAM4', 'es-mx': 'TCP6qG0PC7E', 'fr': 'OJtyGpsEx-E', 'it': '5eYar4gylc8', 'ja': 'ZlkKst9FGjM', 'ko': 'ITeD91uC5ps', 'pl': 'o7TP-ksP-2Q', 'pt-br': 'ix7saCXevDI', 'ru': 'ZvVxoSLZN9s', 'zh-cht': 'kbMQhmCB_RM','zh-chs': 'Bi-ZQshWOMU'}",
+          "RanksTrailer": "{'de': 'r3PNojbr9R8', 'en': 'bY3_GggOEz0', 'es': 'EAkbE4I4-Jk', 'es-mx': 'eF98C8XV6MA', 'fr': '9fZoZR6rALY', 'it': 'QQLS-JwkCqA', 'ja': 'BzuIyLopECQ', 'ko': '1TI4EB-OWYc', 'pl': '44fJ5M78gwU', 'pt-br': 'sxJud-kbz-A', 'ru': 'YEB0lZTxKzo', 'zh-cht': 'cD3ZPMKQl9s', 'zh-chs': '-W0-hmpSHAU'}",
+          "ExoticTrailer": "{'de': '47kxWvYREGY', 'en': 'ka7hANO8MwU', 'es': 'Rwe6fGcbvh8', 'es-mx': '5eZODvWk_QQ', 'fr': 'q5G7rzmOeQU', 'it': 'jy4CnYcePkM', 'ja': 'R6LCaVkoTX4', 'ko': 'W82KvIAiDW0', 'pl': 'XCbV7oZtpNM', 'pt-br': 'taMkho4opUQ', 'ru': 'aJo7W9NRt9E', 'zh-cht': 'nTVjmrQrrRs', 'zh-chs': 'aRLnR_aptVc'}"
+        }
+      },
+      "Season13Page": {
+        "enabled": true,
+        "parameters": {
+          "Season13TrailerAnalyticsId": "s13-top-trailer-button",
+          "Season13BuyAnalyticsId": "s13-top-buy-button",
+          "Season13NavBuyAnalyticsId": "s13-subnav-buy-button",
+          "JoinTheBattleAnalyticsId": "join-the-battle-button",
+          "HeroTrailer": "{'de': 'q23Q_v0RwLw', 'en': '_XlFBp_ZmyE', 'es': 'gSfqWSqbJHE', 'es-mx': '57aPfmokwQU', 'fr': 'R1tvLcSyk5g', 'it': 'VGe1jIzwIvY', 'ja': 'kpYp-MFksy8', 'ko':'Avn-IlPZWpk', 'pl': 'eE5WZ8yrnQg', 'pt-br': 'aXtdWAX-GYc', 'ru': '6q8GaRME-rE', 'zh-cht': 'SQfcVFUMFSo', 'zh-chs': 'XNGVSo9eAaY'}",
+          "SeasonPassTrailer": "{'de': 'cubh_lgCU8c', 'en': 'i2MfIzo03Ec', 'es': 'ZlODqZdIMUo', 'es-mx': 'Q07CZAE9UgE', 'fr': 'wOc1YuOboWE', 'it': 'iKwgvnivTBk', 'ja': '2AsTL-eYKpE', 'ko':'SNgAuGPKDdE', 'pl': 'wuNZLK7sbmk', 'pt-br': 'Dv3BMT8Di_c', 'ru': 'YKW4tedZt4w', 'zh-cht': 'slR1q1XY-fo', 'zh-chs': 'QWaAwPj1uQI'}"
+        }
+      },
+      "Season14Page": {
+        "enabled": true,
+        "parameters": {
+          "season14BuyAnalyticsId": "s14-top-buy-button",
+          "season14GamePlayTrailerAnalyticsId": "s14-top-trailer-button",
+          "season14PassTrailerAnalyticsId": "s14-season-pass-trailer-button",
+          "Season14RaidTrailerAnalyticsId": "s14-raid-trailer-button",
+          "Season14NavBtnAnalyticsId": "s14-subnav-buy-button",
+          "Season14RewardsLearnMoreAnalyticsId": "s14-rewards-learn-more",
+          "Season14EmoteBundleAnalyticsId": "s14-atheon-emote-bundle-button",
+          "Season14SilverBundleAnalyticsId": "s14-silver-bundle-button",
+          "HeroTrailer": "{'de': 'bfexXCTsGM0', 'en': 'crKGHG3stbY', 'es': 'MvAUAeyIn3k', 'es-mx': 'L6spFIKeXMA', 'fr': 'xjlTAVPFIqE', 'it': 'U_TNDzpkbYQ', 'ja': '5Zzo3WOJpoQ', 'ko':'m4FzZhyKq-s', 'pl': 'DFZvL3ss9gE', 'pt-br': '_l6LislxWlA', 'ru': 'TMMR2Kxb8OI', 'zh-cht': '1KddglHxWdc', 'zh-chs': 'R1zUNB-cGfw'}",
+          "SeasonPassTrailer": "{'de': 'iGnH_N1NrDU', 'en': 'NSYozZMj7NU', 'es': '_ZhCEYFdC0o', 'es-mx': 'JbqLYkqEXmw', 'fr': 'b10wDqRayvQ', 'it': '7qr9t2pDn8M', 'ja': 'hkDR0CMnWn4', 'ko':'H4AyrXijexc', 'pl': '0K2Ew8Z_gwE', 'pt-br': '0LROZYu8UdQ', 'ru': 'ejEOCwUffqQ', 'zh-cht': 'FFTWW50hTYw', 'zh-chs': 'bLyKt9W7dzA'}",
+          "Season14RaidTrailerId": "{'de': 'R1ZWJ3gmxAo', 'en': 'L_n8u_Ltq9U', 'es': 'u_Hi55xMibs', 'es-mx': 'TIKbBWDfkPM', 'fr': 'tDcKZzVryVI', 'it': 'Oq83LnnmZVk', 'ja': 'pkMK3mYmDro', 'ko':'WYhk_i-8Xvc', 'pl': 'IN5E3-VuvB4', 'pt-br': 'zwodYjdDNSM', 'ru': 'z2cEVU9vGtM', 'zh-cht': 'c5_aJyxlxJc', 'zh-chs': 'Cy_iey3wvHI'}"
+        }
+      },
+      "Season14HelpArticleUrlByLocale": {
+        "enabled": true,
+        "parameters": {
+          "help_en": "https://help.bungie.net/hc/en-us/articles/360059443812",
+          "help_de": "https://help.bungie.net/hc/de/articles/360059443812",
+          "help_es": "https://help.bungie.net/hc/es/articles/360059443812",
+          "help_es-mx": "https://help.bungie.net/hc/es-mx/articles/360059443812",
+          "help_fr": "https://help.bungie.net/hc/fr/articles/360059443812",
+          "help_it": "https://help.bungie.net/hc/it/articles/360059443812",
+          "help_ja": "https://help.bungie.net/hc/ja/articles/360059443812",
+          "help_ko": "https://help.bungie.net/hc/ko/articles/360059443812",
+          "help_pl": "https://help.bungie.net/hc/pl/articles/360059443812",
+          "help_pt-br": "https://help.bungie.net/hc/pt-br/articles/360059443812",
+          "help_ru": "https://help.bungie.net/hc/ru/articles/360059443812",
+          "help_zh-chs": "https://help.bungie.net/hc/zh-cn/articles/360059443812",
+          "help_zh-cht": "https://help.bungie.net/hc/zh-tw/articles/360059443812"
+        }
+      },
+      "Season15Page": {
+        "enabled": true,
+        "parameters": {
+          "Season15PlayNowBtnAnalyticsId": "s15-top-buy-button",
+          "Season15GamePlayTrailerAnalyticsId": "s15-top-trailer-button",
+          "Season15NavBtnAnalyticsId": "s15-subnav-buy-button",
+          "Season15PassTrailerAnalyticsId": "s15-season-pass-trailer-button",
+          "Season15CalendarAnalyticsId": "s15-calendar-button",
+          "ExoticQuestTrailerBtnAnalyticsId": "s15-exotic-trailer-btn",
+          "Season15SilverBundleAnalyticsId": "s15-silver-bundle-button",
+          "HeroTrailer": "{'de': 'b1zZur3OnaI', 'en': 'kFF6tsCXzfE', 'es': 'sVkhHrbukrk', 'es-mx': 'h2gjP-IAI6A', 'fr': 'uZzXRNW6BxI', 'it': 'mvj0v12ycW0', 'ja': 'cKmgll71-5A', 'ko':'Vj-9bNlN5HY', 'pl': 'oeUbjMoloCg', 'pt-br': 'xAth2ApRmUA', 'ru': 'f2110H2BGXk', 'zh-cht': 'ZMZu_nNw6hA', 'zh-chs': 'u6Difbsr0F0'}",
+          "ExoticQuestTrailer": "{'de': 'ts0q6iT7nY8', 'en': 'itfvm9-RAMg', 'es': 'V5eG_MgIWZk', 'es-mx': 'omx28OAw1-A', 'fr': '1iUVvqByESo', 'it': 'BTxUJyPMfrs', 'ja': 'yG0KkBj3ERo', 'ko':'3hyJWcautmg', 'pl': '7gQW6Wa8hms', 'pt-br': '4LyTUOxQIxA', 'ru': '89dkxovL7vk', 'zh-cht': '0-7THgOEof0', 'zh-chs': 'D5Kdd8_efK4'}"
+        }
+      },
+      "CoreMarketingPages": { "enabled": true, "parameters": {} },
+      "LegendaryEditionEnabled": { "enabled": true, "parameters": {} },
+      "BuyFlow": {
+        "enabled": true,
+        "parameters": { "DisabledPSNSkus": "\\\\s*" }
+      },
+      "CoreHomeandNews": { "enabled": false, "parameters": {} },
+      "CoreAreaDestiny": { "enabled": true, "parameters": {} },
+      "WebRendererCore": {
+        "enabled": true,
+        "parameters": {
+          "BrowserSupportHelpArticleID": "46269",
+          "FetchEntitlements": "true"
+        }
+      },
+      "DestinyArg": {
+        "enabled": true,
+        "parameters": {
+          "PuzzleGateDate": "2020-11-05T10:00:00-08:00",
+          "ImageResetFrequency": "2",
+          "ArgDataVersion": "7",
+          "ArgImageUrlTemplate": "/pubassets/wqarg/strips/[[REPLACE_ME]].png"
+        }
+      },
+      "ForceHttps": { "enabled": true, "parameters": {} },
+      "StaticHostEnabled": {
+        "enabled": false,
+        "parameters": { "StaticHost": "www.bungie.net" }
+      },
+      "ProfileRecentGames": { "enabled": true, "parameters": {} },
+      "WebRenderer": {
+        "enabled": true,
+        "parameters": { "PressKitUrl": "https://press.bungie.com" }
+      },
+      "SessionTracking": {
+        "enabled": true,
+        "parameters": { "SessionTimeoutSeconds": "1800" }
+      },
+      "BungieAnalytics": { "enabled": true, "parameters": {} },
+      "GoogleAnalytics": { "enabled": true, "parameters": {} },
+      "FacebookPixel": {
+        "enabled": true,
+        "parameters": { "PixelId": "443381329782487" }
+      },
+      "SiteTagging": { "enabled": true, "parameters": {} },
+      "UserStatus": {
+        "enabled": true,
+        "parameters": { "CharacterLimit": "40" }
+      },
+      "Pagination": {
+        "enabled": true,
+        "parameters": {
+          "UserSearchMaxPageSize": "25",
+          "FollowersMaxPageSize": "50",
+          "ContentMaxPageSize": "50",
+          "GroupMemberMaxPageSize": "100",
+          "GroupMaxPageSize": "100",
+          "FriendMaxPageSize": "25",
+          "ConversationMaxPageSize": "20"
+        }
+      },
+      "D2Rewards": {
+        "enabled": true,
+        "parameters": {
+          "D2RewardsNewsArticleFirehoseId": "47198",
+          "D2RewardsHelpArticleFirehoseId": "47107"
+        }
+      },
+      "MagentoStore": {
+        "enabled": true,
+        "parameters": {
+          "StoreBungieRewardsUrl": "https://www.bungiestore.com/bungie-rewards"
+        }
+      },
+      "LocalizerDebug": { "enabled": false, "parameters": {} },
+      "Localizer": {
+        "enabled": true,
+        "parameters": { "XMLEnglishFallbackEnabled": "true" }
+      },
+      "GlobalMasterControl": { "enabled": true, "parameters": {} },
+      "CompanionFeaturePage": {
+        "enabled": true,
+        "parameters": { "AppId": "441444902" }
+      },
+      "SmsResendCodeRecaptcha": { "enabled": true, "parameters": {} },
+      "GoogleRecaptcha": {
+        "enabled": true,
+        "parameters": {
+          "RecaptchaSiteInvisible": "6LeMaPUZAAAAAIXkZZCUU2vMicm7dnrfkfMjISrL",
+          "RecaptchaSecretInvisible": "6LeMaPUZAAAAAG82Ql_q47wzbhkHXNwT9vWjFL8U"
+        }
+      },
+      "BungieNetTest": { "enabled": true, "parameters": { "Version": "1" } },
+      "AllowGlobalBungieDisplayNameEditing": {
+        "enabled": true,
+        "parameters": {}
+      },
+      "UseGlobalBungieDisplayNames": {
+        "enabled": true,
+        "parameters": { "ThrottleMilliseconds": "500" }
+      },
+      "Destiny2TwitchExtUI_Bounties": { "enabled": true, "parameters": {} },
+      "Destiny2TwitchExtUI_Equipment": { "enabled": true, "parameters": {} },
+      "Destiny2TwitchExtUI_TrialsPassages": {
+        "enabled": true,
+        "parameters": {}
+      },
+      "Destiny2TwitchExtUI_Metrics": { "enabled": true, "parameters": {} },
+      "Destiny2TwitchExtUI_Promo": { "enabled": true, "parameters": {} },
+      "Destiny2TwitchExtUI_GiftSubsWarnWhenOffline": {
+        "enabled": true,
+        "parameters": {}
+      },
+      "Destiny2TwitchExtUI_ShowFlawlessPips": {
+        "enabled": true,
+        "parameters": {}
+      },
+      "Destiny2TwitchExtUI": { "enabled": true, "parameters": {} },
+      "EmbeddedTwitchStreams": {
+        "enabled": true,
+        "parameters": {
+          "WatchOnTwitchLinkDestination": "https://www.twitch.tv/Bungie"
+        }
+      },
+      "Streaming": { "enabled": true, "parameters": {} },
+      "AB_System_Test_25_percent": { "enabled": false, "parameters": {} },
+      "AB_System_Test_25_percent_offset_25": {
+        "enabled": false,
+        "parameters": {}
+      },
+      "AB_System_Test_75_percent": { "enabled": false, "parameters": {} },
+      "AB_System_Test_75_percent_offset_30": {
+        "enabled": false,
+        "parameters": {}
+      },
+      "AB_System_Test_50_percent_authrequired": {
+        "enabled": false,
+        "parameters": {}
+      },
+      "AB_System_Test_50_percent_source0": {
+        "enabled": false,
+        "parameters": {}
+      },
+      "FacebookUrlByLocale": {
+        "enabled": true,
+        "parameters": {
+          "en": "https://www.facebook.com/Bungie",
+          "es": "https://www.facebook.com/destinythegame.es",
+          "es-mx": "https://www.facebook.com/destinythegame.es",
+          "fr": "https://www.facebook.com/destinythegame.fr",
+          "it": "https://www.facebook.com/destinythegame.it",
+          "de": "https://www.facebook.com/destinythegame.de",
+          "ru": "https://www.facebook.com/destinythegame.ru",
+          "pl": "https://www.facebook.com/destinythegamepl",
+          "ja": "https://www.facebook.com/destinythegame.jpn",
+          "ko": "https://www.facebook.com/DestinyTheGame.kr"
+        }
+      },
+      "TwitterUrlByLocale": {
+        "enabled": true,
+        "parameters": {
+          "en": "https://twitter.com/bungie",
+          "es": "https://twitter.com/DestinyGameES",
+          "es-mx": "https://twitter.com/DestinyGameES",
+          "fr": "https://twitter.com/DestinyGameFR",
+          "it": "https://twitter.com/DestinyGameIT",
+          "de": "https://twitter.com/DestinyGameDE",
+          "ru": "https://twitter.com/DestinyGameRU",
+          "ja": "https://twitter.com/DestinyGameJP",
+          "ko": "https://twitter.com/DestinyGameKR"
+        }
+      },
+      "InstagramUrlByLocale": {
+        "enabled": true,
+        "parameters": {
+          "en": "https://www.instagram.com/bungie/",
+          "es": "https://www.instagram.com/destinythegamees",
+          "es-mx": "https://www.instagram.com/destinythegamees",
+          "fr": "https://www.instagram.com/destinythegamefr",
+          "it": "https://www.instagram.com/destinythegameit",
+          "de": "https://www.instagram.com/destinythegamede",
+          "pl": "https://www.instagram.com/destinythegamepl"
+        }
+      },
+      "SocialMediaUrlByLocale": { "enabled": true, "parameters": {} },
+      "LegalContentStackPages": { "enabled": true, "parameters": {} },
+      "ContentStackFetchReverseProxy": {
+        "enabled": false,
+        "parameters": {
+          "CloudflareReverseProxyIsConfigured": "false",
+          "ReverseProxyHost": "content.bungie.net"
+        }
+      },
+      "ContentStack": {
+        "enabled": true,
+        "parameters": {
+          "ApiKey": "blte410e3b15535c144",
+          "EnvPlusDeliveryToken": "{live}{cs7929311353379d90697fc0b6}"
+        }
+      }
+    },
+    "ignoreReasons": [
+      {
+        "identifier": "4",
+        "isDefault": true,
+        "displayName": "Disrespect/Hate Speech"
+      },
+      {
+        "identifier": "64",
+        "isDefault": false,
+        "displayName": "Harassment/Personal Attacks/Bullying"
+      },
+      {
+        "identifier": "8",
+        "isDefault": false,
+        "displayName": "Name and Shame/Privacy Violation"
+      },
+      {
+        "identifier": "1",
+        "isDefault": false,
+        "displayName": "Gory Violence/Explicit Sexuality"
+      },
+      {
+        "identifier": "256",
+        "isDefault": false,
+        "displayName": "Threats of Violence/Illegal Activity"
+      },
+      {
+        "identifier": "1024",
+        "isDefault": false,
+        "displayName": "Political/Religious Discussion"
+      },
+      {
+        "identifier": "32",
+        "isDefault": false,
+        "displayName": "Cheating/Hacking"
+      },
+      {
+        "identifier": "16",
+        "isDefault": false,
+        "displayName": "Spoilers/Distributing Stolen Content"
+      },
+      {
+        "identifier": "512",
+        "isDefault": false,
+        "displayName": "Soliciting/Plagiarism/Phishing/Impersonation"
+      },
+      {
+        "identifier": "128",
+        "isDefault": false,
+        "displayName": "Disruption/Evasion"
+      }
+    ],
+    "forumCategories": [
+      {
+        "identifier": "Destiny2",
+        "isDefault": false,
+        "displayName": "Destiny 2",
+        "summary": "Discuss all things Destiny 2.",
+        "imagePath": "/img/theme/destiny/headers/forum_headers_destiny2_v1.jpg",
+        "childSettings": [
+          {
+            "identifier": "FeedbackD2",
+            "isDefault": false,
+            "displayName": "Feedback",
+            "summary": "Feedback",
+            "imagePath": "/img/theme/destiny/headers/forum_headers_destiny2_v1.jpg"
+          },
+          {
+            "identifier": "Rewards",
+            "isDefault": false,
+            "displayName": "Rewards",
+            "summary": "Gear up. Level Up.",
+            "imagePath": "/img/theme/destiny/headers/forum_headers_destiny2_v1.jpg"
+          },
+          {
+            "identifier": "Lore",
+            "isDefault": false,
+            "displayName": "Lore",
+            "summary": "Discuss the deep lore of the Destiny universe.",
+            "imagePath": "/img/theme/destiny/headers/forum_headers_destiny2_v1.jpg"
+          },
+          {
+            "identifier": "Destiny2Gameplay",
+            "isDefault": false,
+            "displayName": "Gameplay",
+            "summary": "Give us feedback about gameplay in Destiny 2!",
+            "imagePath": "/img/theme/destiny/headers/forum_headers_destiny2_v1.jpg"
+          }
+        ]
+      },
+      {
+        "identifier": "Destiny",
+        "isDefault": false,
+        "displayName": "Destiny",
+        "summary": "Discuss all things Destiny.",
+        "imagePath": "/img/theme/destiny/headers/forum_headers_destiny_v2.jpg"
+      },
+      {
+        "identifier": "Clans",
+        "isDefault": false,
+        "displayName": "Clan Recruitment",
+        "summary": "Look for Clans or seek new members.",
+        "imagePath": "/img/theme/destiny/headers/forum_headers_bungie_v3.jpg"
+      },
+      {
+        "identifier": "CompanionApp",
+        "isDefault": false,
+        "displayName": "Companion App",
+        "summary": "What needs work in the Companion App?",
+        "imagePath": "/img/theme/destiny/headers/forum_headers_feedback_v3.jpg",
+        "childSettings": [
+          {
+            "identifier": "CompanionAppIOS",
+            "isDefault": false,
+            "displayName": "iOS",
+            "summary": "iOS",
+            "imagePath": "/img/theme/destiny/headers/forum_headers_feedback_v3.jpg"
+          },
+          {
+            "identifier": "CompanionAppAndroid",
+            "isDefault": false,
+            "displayName": "Android",
+            "summary": "Android",
+            "imagePath": "/img/theme/destiny/headers/forum_headers_feedback_v3.jpg"
+          },
+          {
+            "identifier": "CompanionAppWeb",
+            "isDefault": false,
+            "displayName": "Web",
+            "summary": "Web",
+            "imagePath": "/img/theme/destiny/headers/forum_headers_feedback_v3.jpg"
+          }
+        ]
+      },
+      {
+        "identifier": "Help",
+        "isDefault": false,
+        "displayName": "Help",
+        "summary": "Help us help you.",
+        "imagePath": "/img/theme/destiny/headers/forum_headers_support_v3.jpg",
+        "childSettings": [
+          {
+            "identifier": "ErrorCodes",
+            "isDefault": false,
+            "displayName": "Error Codes",
+            "summary": "Get assistance with error codes.",
+            "imagePath": "/img/theme/destiny/headers/forum_headers_support_v3.jpg"
+          },
+          {
+            "identifier": "Networking",
+            "isDefault": false,
+            "displayName": "Networking",
+            "summary": "Troubleshoot your connection.",
+            "imagePath": "/img/theme/destiny/headers/forum_headers_support_v3.jpg"
+          },
+          {
+            "identifier": "Eververse",
+            "isDefault": false,
+            "displayName": "Eververse",
+            "summary": "Assistance with all things Eververse.",
+            "imagePath": "/img/theme/destiny/headers/forum_headers_support_v3.jpg"
+          },
+          {
+            "identifier": "Gameplay",
+            "isDefault": false,
+            "displayName": "Game Issues",
+            "summary": "What\u2019s not working in the game?",
+            "imagePath": "/img/theme/destiny/headers/forum_headers_support_v3.jpg"
+          },
+          {
+            "identifier": "BnetIssues",
+            "isDefault": false,
+            "displayName": "Website Companion",
+            "summary": "Help us make the website better.",
+            "imagePath": "/img/theme/destiny/headers/forum_headers_support_v3.jpg"
+          },
+          {
+            "identifier": "iOS",
+            "isDefault": false,
+            "displayName": "iOS Companion",
+            "summary": "Using the Destiny 2 Companion on iOS?  Get assistance here.",
+            "imagePath": "/img/theme/destiny/headers/forum_headers_support_v3.jpg"
+          },
+          {
+            "identifier": "Android",
+            "isDefault": false,
+            "displayName": "Android Companion",
+            "summary": "Using the Destiny 2 Companion on an Android device?  Get assistance here.",
+            "imagePath": "/img/theme/destiny/headers/forum_headers_support_v3.jpg"
+          },
+          {
+            "identifier": "PCSupport",
+            "isDefault": false,
+            "displayName": "PC Support",
+            "summary": "Problems getting your PC to work with Destiny 2?",
+            "imagePath": "/img/theme/destiny/headers/forum_headers_support_v3.jpg"
+          },
+          {
+            "identifier": "ConsoleSupport",
+            "isDefault": false,
+            "displayName": "Console Support",
+            "summary": "Problems getting your console to work with Destiny 2?",
+            "imagePath": "/img/theme/destiny/headers/forum_headers_support_v3.jpg"
+          },
+          {
+            "identifier": "LegacySupport",
+            "isDefault": false,
+            "displayName": "Legacy Support",
+            "summary": "Problems with original Destiny on a PS3 or Xbox 360?",
+            "imagePath": "/img/theme/destiny/headers/forum_headers_support_v3.jpg"
+          }
+        ]
+      },
+      {
+        "identifier": "OffTopic",
+        "isDefault": false,
+        "displayName": "OffTopic",
+        "summary": "Surf a Flood of random discussion.",
+        "imagePath": "/img/theme/destiny/headers/forum_headers_offtopic_v3.jpg"
+      },
+      {
+        "identifier": "",
+        "isDefault": true,
+        "displayName": "All Topics",
+        "summary": "Drink from the firehose.",
+        "imagePath": "/img/theme/destiny/headers/forum_headers_all.jpg"
+      }
+    ],
+    "groupAvatars": [
+      {
+        "identifier": "70000",
+        "isDefault": true,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/defaultGroup.png"
+      },
+      {
+        "identifier": "70001",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/001.jpg"
+      },
+      {
+        "identifier": "70002",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/002.jpg"
+      },
+      {
+        "identifier": "70003",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/003.jpg"
+      },
+      {
+        "identifier": "70004",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/004.jpg"
+      },
+      {
+        "identifier": "70005",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/005.jpg"
+      },
+      {
+        "identifier": "70006",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/006.jpg"
+      },
+      {
+        "identifier": "70007",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/007.jpg"
+      },
+      {
+        "identifier": "70008",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/008.jpg"
+      },
+      {
+        "identifier": "70009",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/009.jpg"
+      },
+      {
+        "identifier": "70010",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/010.jpg"
+      },
+      {
+        "identifier": "70011",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/011.jpg"
+      },
+      {
+        "identifier": "70012",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/012.jpg"
+      },
+      {
+        "identifier": "70013",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/013.jpg"
+      },
+      {
+        "identifier": "70014",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/014.jpg"
+      },
+      {
+        "identifier": "70015",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/015.jpg"
+      },
+      {
+        "identifier": "70016",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/016.jpg"
+      },
+      {
+        "identifier": "70017",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/017.jpg"
+      },
+      {
+        "identifier": "70018",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/018.jpg"
+      },
+      {
+        "identifier": "70019",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/019.jpg"
+      },
+      {
+        "identifier": "70020",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/020.jpg"
+      },
+      {
+        "identifier": "70021",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/021.jpg"
+      },
+      {
+        "identifier": "70022",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/022.jpg"
+      },
+      {
+        "identifier": "70023",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/023.jpg"
+      },
+      {
+        "identifier": "70024",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/024.png"
+      },
+      {
+        "identifier": "70025",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/025.png"
+      },
+      {
+        "identifier": "70026",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/026.png"
+      },
+      {
+        "identifier": "70027",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/027.png"
+      },
+      {
+        "identifier": "70028",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/028.png"
+      },
+      {
+        "identifier": "70029",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/029.png"
+      },
+      {
+        "identifier": "70031",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/031.png"
+      },
+      {
+        "identifier": "70032",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/032.png"
+      },
+      {
+        "identifier": "70033",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/033.png"
+      },
+      {
+        "identifier": "70034",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/034.png"
+      },
+      {
+        "identifier": "70035",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/035.png"
+      },
+      {
+        "identifier": "70036",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/036.png"
+      },
+      {
+        "identifier": "70037",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/037.png"
+      },
+      {
+        "identifier": "70038",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/038.png"
+      },
+      {
+        "identifier": "70039",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/039.png"
+      },
+      {
+        "identifier": "70040",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/040.png"
+      },
+      {
+        "identifier": "70041",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/041.png"
+      },
+      {
+        "identifier": "70042",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/042.png"
+      },
+      {
+        "identifier": "70043",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/043.png"
+      },
+      {
+        "identifier": "70044",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/044.png"
+      },
+      {
+        "identifier": "60045",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/avatars_groups_fallen.jpg"
+      },
+      {
+        "identifier": "60046",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/avatars_groups_hunter.jpg"
+      },
+      {
+        "identifier": "60047",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/avatars_groups_hunter1.jpg"
+      },
+      {
+        "identifier": "60048",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/avatars_groups_hunter2.jpg"
+      },
+      {
+        "identifier": "60049",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/avatars_groups_racer.jpg"
+      },
+      {
+        "identifier": "60050",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/avatars_groups_titan.jpg"
+      },
+      {
+        "identifier": "60051",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/avatars_groups_titan1.jpg"
+      },
+      {
+        "identifier": "60052",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/avatars_groups_titan2.jpg"
+      },
+      {
+        "identifier": "60053",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/avatars_groups_warlock.jpg"
+      },
+      {
+        "identifier": "60054",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/avatars_groups_warlock1.jpg"
+      },
+      {
+        "identifier": "60055",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/Group180_09.jpg"
+      },
+      {
+        "identifier": "60056",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/Group180_08.jpg"
+      },
+      {
+        "identifier": "60057",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/Group180_07.jpg"
+      },
+      {
+        "identifier": "60058",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/Group180_06.jpg"
+      },
+      {
+        "identifier": "60059",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/Group180_04.jpg"
+      },
+      {
+        "identifier": "60060",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/Group180_03.jpg"
+      },
+      {
+        "identifier": "60061",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/Group180_02.jpg"
+      },
+      {
+        "identifier": "60062",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/gca1.png"
+      },
+      {
+        "identifier": "60063",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/gca2.png"
+      },
+      {
+        "identifier": "60064",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/gca3.png"
+      },
+      {
+        "identifier": "60065",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/gca4.png"
+      },
+      {
+        "identifier": "60066",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/gca5.png"
+      },
+      {
+        "identifier": "60067",
+        "isDefault": false,
+        "displayName": "",
+        "summary": "",
+        "imagePath": "/img/profile/avatars/group/gca6.png"
+      }
+    ],
+    "destinyMembershipTypes": [
+      {
+        "identifier": "TigerXbox",
+        "isDefault": false,
+        "displayName": "Xbox",
+        "summary": "Xuid",
+        "imagePath": ""
+      },
+      {
+        "identifier": "TigerPsn",
+        "isDefault": false,
+        "displayName": "PSN",
+        "summary": "Psnid",
+        "imagePath": ""
+      },
+      {
+        "identifier": "TigerSteam",
+        "isDefault": false,
+        "displayName": "Steam",
+        "summary": "SteamId",
+        "imagePath": ""
+      },
+      {
+        "identifier": "TigerStadia",
+        "isDefault": false,
+        "displayName": "Stadia",
+        "summary": "StadiaId",
+        "imagePath": ""
+      }
+    ],
+    "recruitmentPlatformTags": [
+      { "identifier": "PS4", "isDefault": false, "displayName": "PS4" },
+      { "identifier": "XboxOne", "isDefault": false, "displayName": "XboxOne" },
+      {
+        "identifier": "BattleNet",
+        "isDefault": false,
+        "displayName": "BattleNet"
+      }
+    ],
+    "recruitmentMiscTags": [],
+    "recruitmentActivities": [
+      {
+        "identifier": "UpForAnything",
+        "isDefault": false,
+        "displayName": "Up for Anything",
+        "imagePath": "/img/destiny_content/advisors/pve_story_standard.png",
+        "childSettings": [
+          { "identifier": "playerSlots", "isDefault": false, "summary": "6" },
+          {
+            "identifier": "excludedPlatforms",
+            "isDefault": false,
+            "summary": ""
+          }
+        ]
+      },
+      {
+        "identifier": "Raid",
+        "isDefault": false,
+        "displayName": "Raid",
+        "imagePath": "/img/destiny_content/advisors/raid.png",
+        "childSettings": [
+          { "identifier": "playerSlots", "isDefault": false, "summary": "6" },
+          {
+            "identifier": "excludedPlatforms",
+            "isDefault": false,
+            "summary": ""
+          }
+        ]
+      },
+      {
+        "identifier": "Nightfall",
+        "isDefault": false,
+        "displayName": "Nightfall",
+        "imagePath": "img/destiny_content/advisors/pve_heroic_strike_playlist.png",
+        "childSettings": [
+          { "identifier": "playerSlots", "isDefault": false, "summary": "3" },
+          {
+            "identifier": "excludedPlatforms",
+            "isDefault": false,
+            "summary": ""
+          }
+        ]
+      },
+      {
+        "identifier": "Strikes",
+        "isDefault": false,
+        "displayName": "Strikes",
+        "imagePath": "img/destiny_content/advisors/pve_heroic_strike_playlist.png",
+        "childSettings": [
+          { "identifier": "playerSlots", "isDefault": false, "summary": "3" },
+          {
+            "identifier": "excludedPlatforms",
+            "isDefault": false,
+            "summary": ""
+          }
+        ]
+      },
+      {
+        "identifier": "TrialsOfNine",
+        "isDefault": false,
+        "displayName": "Trials of the Nine",
+        "imagePath": "/img/destiny_content/advisors/pvp_weekly_pvp.png",
+        "childSettings": [
+          { "identifier": "playerSlots", "isDefault": false, "summary": "4" },
+          {
+            "identifier": "excludedPlatforms",
+            "isDefault": false,
+            "summary": ""
+          }
+        ]
+      },
+      {
+        "identifier": "CruciblePvP",
+        "isDefault": false,
+        "displayName": "Crucible",
+        "imagePath": "/img/destiny_content/advisors/pvp_standardpvp.png",
+        "childSettings": [
+          { "identifier": "playerSlots", "isDefault": false, "summary": "4" },
+          {
+            "identifier": "excludedPlatforms",
+            "isDefault": false,
+            "summary": ""
+          }
+        ]
+      },
+      {
+        "identifier": "Destiny1",
+        "isDefault": false,
+        "displayName": "Destiny 1",
+        "imagePath": "/img/destiny_content/advisors/pvp_standardpvp.png",
+        "childSettings": [
+          { "identifier": "playerSlots", "isDefault": false, "summary": "6" },
+          {
+            "identifier": "excludedPlatforms",
+            "isDefault": false,
+            "summary": "BattleNet"
+          }
+        ]
+      }
+    ],
+    "userContentLocales": [
+      { "identifier": "en", "isDefault": true, "displayName": "English" },
+      {
+        "identifier": "fr",
+        "isDefault": false,
+        "displayName": "Fran\u00e7ais"
+      },
+      { "identifier": "es", "isDefault": false, "displayName": "Espa\u00f1ol" },
+      { "identifier": "de", "isDefault": false, "displayName": "Deutsch" },
+      { "identifier": "it", "isDefault": false, "displayName": "Italiano" },
+      {
+        "identifier": "ja",
+        "isDefault": false,
+        "displayName": "\u65e5\u672c\u8a9e"
+      },
+      {
+        "identifier": "pt-br",
+        "isDefault": false,
+        "displayName": "Portugu\u00eas (Brasil)"
+      },
+      {
+        "identifier": "ru",
+        "isDefault": false,
+        "displayName": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
+      },
+      { "identifier": "pl", "isDefault": false, "displayName": "Polski" },
+      {
+        "identifier": "ko",
+        "isDefault": false,
+        "displayName": "\ud55c\uad6d\uc5b4"
+      },
+      {
+        "identifier": "zh-cht",
+        "isDefault": false,
+        "displayName": "\u7e41\u9ad4\u4e2d\u6587"
+      },
+      {
+        "identifier": "zh-chs",
+        "isDefault": false,
+        "displayName": "\u7b80\u4f53\u4e2d\u6587"
+      }
+    ],
+    "systemContentLocales": [
+      { "identifier": "de", "isDefault": false, "displayName": "Deutsch" },
+      { "identifier": "en", "isDefault": true, "displayName": "English" },
+      { "identifier": "es", "isDefault": false, "displayName": "Espa\u00f1ol" },
+      {
+        "identifier": "es-mx",
+        "isDefault": false,
+        "displayName": "Espa\u00f1ol (M\u00e9xico)"
+      },
+      {
+        "identifier": "fr",
+        "isDefault": false,
+        "displayName": "Fran\u00e7ais"
+      },
+      { "identifier": "it", "isDefault": false, "displayName": "Italiano" },
+      {
+        "identifier": "ja",
+        "isDefault": false,
+        "displayName": "\u65e5\u672c\u8a9e"
+      },
+      {
+        "identifier": "ko",
+        "isDefault": false,
+        "displayName": "\ud55c\uad6d\uc5b4"
+      },
+      { "identifier": "pl", "isDefault": false, "displayName": "Polski" },
+      {
+        "identifier": "pt-br",
+        "isDefault": false,
+        "displayName": "Portugu\u00eas (Brasil)"
+      },
+      {
+        "identifier": "ru",
+        "isDefault": false,
+        "displayName": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
+      },
+      {
+        "identifier": "zh-chs",
+        "isDefault": false,
+        "displayName": "\u7b80\u4f53\u4e2d\u6587"
+      },
+      {
+        "identifier": "zh-cht",
+        "isDefault": false,
+        "displayName": "\u7e41\u9ad4\u4e2d\u6587"
+      }
+    ],
+    "clanBannerDecals": [],
+    "clanBannerDecalColors": [],
+    "clanBannerGonfalons": [],
+    "clanBannerGonfalonColors": [],
+    "clanBannerGonfalonDetails": [],
+    "clanBannerGonfalonDetailColors": [],
+    "clanBannerStandards": [
+      {
+        "identifier": "0",
+        "isDefault": false,
+        "imagePath": "/img/bannercreator/FlagStand00.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/bannercreator/FlagStandBackground00.jpg"
+          }
+        ]
+      }
+    ],
+    "destiny2CoreSettings": {
+      "collectionRootNode": 3790247699,
+      "badgesRootNode": 498211331,
+      "recordsRootNode": 1866538467,
+      "medalsRootNode": 616318467,
+      "metricsRootNode": 1074663644,
+      "activeTriumphsRootNodeHash": 1866538467,
+      "activeSealsRootNodeHash": 616318467,
+      "legacyTriumphsRootNodeHash": 3215903653,
+      "legacySealsRootNodeHash": 1881970629,
+      "medalsRootNodeHash": 3901403713,
+      "exoticCatalystsRootNodeHash": 2642502414,
+      "loreRootNodeHash": 1993337477,
+      "craftingRootNodeHash": 3937826784,
+      "currentRankProgressionHashes": [
+        2083746873, 1647151960, 3008065600, 457612306, 2755675426, 527867935,
+        1471185389
+      ],
+      "insertPlugFreeProtectedPlugItemHashes": [
+        2527938402, 3300281544, 3255036626, 369171376, 1643912408, 3110332187
+      ],
+      "insertPlugFreeBlockedSocketTypeHashes": [1282012138],
+      "undiscoveredCollectibleImage": "/img/destiny_content/collections/undiscovered.png",
+      "ammoTypeHeavyIcon": "/img/destiny_content/ammo_types/heavy.png",
+      "ammoTypeSpecialIcon": "/img/destiny_content/ammo_types/special.png",
+      "ammoTypePrimaryIcon": "/img/destiny_content/ammo_types/primary.png",
+      "currentSeasonalArtifactHash": 2894222926,
+      "currentSeasonHash": 2809059431,
+      "seasonalChallengesPresentationNodeHash": 3443694067,
+      "futureSeasonHashes": [2809059430, 2809059433, 2809059432],
+      "pastSeasonHashes": [
+        1743682818, 1743682819, 2809059425, 2809059424, 2809059427, 2809059426,
+        2809059429, 2809059428
+      ]
+    },
+    "emailSettings": {
+      "optInDefinitions": {
+        "Newsletter": {
+          "name": "Newsletter",
+          "value": 1,
+          "setByDefault": true,
+          "dependentSubscriptions": []
+        },
+        "System": {
+          "name": "System",
+          "value": 2,
+          "setByDefault": true,
+          "dependentSubscriptions": []
+        },
+        "Marketing": {
+          "name": "Marketing",
+          "value": 4,
+          "setByDefault": true,
+          "dependentSubscriptions": []
+        },
+        "UserResearch": {
+          "name": "UserResearch",
+          "value": 8,
+          "setByDefault": true,
+          "dependentSubscriptions": []
+        },
+        "CustomerService": {
+          "name": "CustomerService",
+          "value": 16,
+          "setByDefault": true,
+          "dependentSubscriptions": []
+        },
+        "Social": {
+          "name": "Social",
+          "value": 32,
+          "setByDefault": true,
+          "dependentSubscriptions": []
+        },
+        "PlayTests": {
+          "name": "PlayTests",
+          "value": 64,
+          "setByDefault": false,
+          "dependentSubscriptions": []
+        },
+        "PlayTestsLocal": {
+          "name": "PlayTestsLocal",
+          "value": 128,
+          "setByDefault": false,
+          "dependentSubscriptions": []
+        },
+        "Careers": {
+          "name": "Careers",
+          "value": 256,
+          "setByDefault": false,
+          "dependentSubscriptions": []
+        }
+      },
+      "subscriptionDefinitions": {},
+      "views": {
+        "create-account": {
+          "name": "create-account",
+          "viewSettings": [
+            {
+              "name": "newsletters",
+              "localization": {
+                "en": {
+                  "title": "News and Updates",
+                  "description": "I allow Bungie to email me about news and updates as well as tailored messaging on social media."
+                },
+                "fr": {
+                  "title": "Nouvelles et mises \u00e0 jour",
+                  "description": "J'autorise Bungie \u00e0 me contacter par courriel au sujet des derni\u00e8res actus et mises \u00e0 jour, ainsi qu'\u00e0 me faire voir des messages personnalis\u00e9s sur les r\u00e9seaux sociaux."
+                },
+                "es": {
+                  "title": "Novedades y actualizaciones",
+                  "description": "Permito que Bungie me env\u00ede correos electr\u00f3nicos con noticias y actualizaciones, as\u00ed como mensajes personalizados en las redes sociales."
+                },
+                "de": {
+                  "title": "News und Updates",
+                  "description": "Ich erlaube Bungie, mir E-Mails \u00fcber Neuigkeiten und Updates sowie angepasste Nachrichten \u00fcber Social Media zu schicken."
+                },
+                "it": {
+                  "title": "Novit\u00e0 e aggiornamenti",
+                  "description": "Do il mio consenso per la ricezione di novit\u00e0 e aggiornamenti via email e di messaggi personalizzati sui social media."
+                },
+                "ja": {
+                  "title": "\u30cb\u30e5\u30fc\u30b9\u3068\u66f4\u65b0",
+                  "description": "Bungie\u304b\u3089\u3001\u30cb\u30e5\u30fc\u30b9\u3001\u66f4\u65b0\u3001\u30bd\u30fc\u30b7\u30e3\u30eb\u30e1\u30c7\u30a3\u30a2\u4e0a\u3067\u306e\u30ab\u30b9\u30bf\u30de\u30a4\u30ba\u30e1\u30c3\u30bb\u30fc\u30b8\u306b\u95a2\u3059\u308b\u30e1\u30fc\u30eb\u3092\u53d7\u3051\u53d6\u308b\u3002"
+                },
+                "pt-br": {
+                  "title": "Not\u00edcias e atualiza\u00e7\u00f5es",
+                  "description": "Permito que a Bungie me envie mensagens sobre novidades e atualiza\u00e7\u00f5es, bem como mensagens direcionadas em redes sociais."
+                },
+                "es-mx": {
+                  "title": "Noticias y actualizaciones",
+                  "description": "Permito que Bungie me env\u00ede correos electr\u00f3nicos con noticias y actualizaciones, as\u00ed como mensajes personalizados en las redes sociales."
+                },
+                "ru": {
+                  "title": "\u041d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f",
+                  "description": "\u042f \u0440\u0430\u0437\u0440\u0435\u0448\u0430\u044e Bungie \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0442\u044c \u043c\u043d\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u043f\u043e \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u0435 \u0438 \u0438\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0432 \u0441\u043e\u0446\u0441\u0435\u0442\u044f\u0445."
+                },
+                "pl": {
+                  "title": "Nowo\u015bci i aktualno\u015bci",
+                  "description": "Zgadzam si\u0119, aby firma Bungie wysy\u0142a\u0142a do mnie wiadomo\u015bci e-mail na temat news\u00f3w i aktualizacji oraz spersonalizowane wiadomo\u015bci w mediach spo\u0142eczno\u015bciowych."
+                },
+                "ko": {
+                  "title": "\uc18c\uc2dd \ubc0f \uc5c5\ub370\uc774\ud2b8",
+                  "description": "\ubc88\uc9c0\uc5d0\uc11c \uc0c8 \uc18c\uc2dd \ubc0f \uc5c5\ub370\uc774\ud2b8 \uc774\uba54\uc77c\uacfc \uc18c\uc15c \ubbf8\ub514\uc5b4 \ub9de\ucda4 \uba54\uc2dc\uc9c0\ub97c \ubcf4\ub0b4\ub3c4\ub85d \ud5c8\uc6a9\ud569\ub2c8\ub2e4."
+                },
+                "zh-cht": {
+                  "title": "\u6700\u65b0\u8cc7\u8a0a\u53ca\u66f4\u65b0",
+                  "description": "\u6211\u5141\u8a31Bungie\u4f7f\u7528\u96fb\u5b50\u90f5\u4ef6\u901a\u77e5\u6211\u65b0\u805e\u8207\u66f4\u65b0\u8cc7\u8a0a\uff0c\u4ee5\u53ca\u5728\u793e\u7fa4\u5a92\u9ad4\u4e0a\u70ba\u6211\u6240\u8a2d\u8a08\u7684\u8a0a\u606f\u3002"
+                },
+                "zh-chs": {
+                  "title": "\u65b0\u95fb\u4e0e\u66f4\u65b0",
+                  "description": "\u6211\u5141\u8bb8Bungie\u4f7f\u7528\u7535\u5b50\u90ae\u4ef6\u5411\u6211\u53d1\u9001\u65b0\u95fb\u3001\u66f4\u65b0\u4fe1\u606f\uff0c\u4ee5\u53ca\u793e\u4ea4\u5a92\u4f53\u4e0a\u7684\u4e13\u5c5e\u4fe1\u606f\u3002"
+                }
+              },
+              "setByDefault": true,
+              "optInAggregateValue": 45,
+              "subscriptions": []
+            },
+            {
+              "name": "consumer-insights",
+              "localization": {
+                "en": {
+                  "title": "User Research",
+                  "description": "I allow Bungie to email me about user research opportunities"
+                },
+                "fr": {
+                  "title": "Exp\u00e9rience utilisateur",
+                  "description": "J'autorise Bungie \u00e0 me contacter par e-mail \u00e0 des fins d'am\u00e9lioration de l'exp\u00e9rience utilisateur."
+                },
+                "es": {
+                  "title": "Investigaci\u00f3n",
+                  "description": "Doy mi consentimiento para que Bungie me env\u00ede correos electr\u00f3nicos sobre oportunidades de investigaci\u00f3n sobre h\u00e1bitos de juego del usuario."
+                },
+                "de": {
+                  "title": "Nutzerforschung",
+                  "description": "Ich erlaube Bungie, mir E-Mails \u00fcber M\u00f6glichkeiten zur Nutzerforschung zu schicken"
+                },
+                "it": {
+                  "title": "Sondaggio utenti",
+                  "description": "Do il mio consenso per la ricezione di email sulle opportunit\u00e0 di sondaggio utenti."
+                },
+                "ja": {
+                  "title": "\u30e6\u30fc\u30b6\u30fc\u30ea\u30b5\u30fc\u30c1",
+                  "description": "Bungie\u304b\u3089\u3001\u30e6\u30fc\u30b6\u30fc\u30ea\u30b5\u30fc\u30c1\u306b\u95a2\u3059\u308b\u30e1\u30fc\u30eb\u3092\u53d7\u3051\u53d6\u308b\u3002"
+                },
+                "pt-br": {
+                  "title": "Pesquisa de usu\u00e1rio",
+                  "description": "Permito que a Bungie me envie mensagens sobre oportunidades de pesquisa com usu\u00e1rios."
+                },
+                "es-mx": {
+                  "title": "Investigaci\u00f3n de usuarios",
+                  "description": "Acepto que Bungie me env\u00ede correos sobre oportunidades de investigaciones de usuarios"
+                },
+                "ru": {
+                  "title": "\u041e\u043f\u0440\u043e\u0441 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439",
+                  "description": "\u042f \u0440\u0430\u0437\u0440\u0435\u0448\u0430\u044e Bungie \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0442\u044c \u043c\u043d\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u043e \u0431\u0443\u0434\u0443\u0449\u0438\u0445 \u043e\u043f\u0440\u043e\u0441\u0430\u0445 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439 \u0438\u0433\u0440\u044b \u043f\u043e \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u0435."
+                },
+                "pl": {
+                  "title": "Badania nt. u\u017cytkownik\u00f3w",
+                  "description": "Zgadzam si\u0119, aby firma Bungie wysy\u0142a\u0142a do mnie wiadomo\u015bci e-mail zwi\u0105zane z badaniami nt. u\u017cytkownik\u00f3w"
+                },
+                "ko": {
+                  "title": "\uc0ac\uc6a9\uc790 \uc870\uc0ac",
+                  "description": "\ubc88\uc9c0\uc5d0\uc11c \uc0ac\uc6a9\uc790 \uc870\uc0ac \uae30\ud68c \uad00\ub828 \uc774\uba54\uc77c\uc744 \ubcf4\ub0b4\ub3c4\ub85d \ud5c8\uc6a9\ud569\ub2c8\ub2e4."
+                },
+                "zh-cht": {
+                  "title": "\u4f7f\u7528\u8005\u7814\u7a76",
+                  "description": "\u6211\u5141\u8a31Bungie\u4f7f\u7528\u96fb\u5b50\u90f5\u4ef6\u901a\u77e5\u6211\u6709\u95dc\u4f7f\u7528\u8005\u7814\u7a76\u6a5f\u6703\u7684\u8a0a\u606f\u3002"
+                },
+                "zh-chs": {
+                  "title": "\u7528\u6237\u7814\u7a76",
+                  "description": "\u6211\u5141\u8bb8Bungie\u4f7f\u7528\u7535\u5b50\u90ae\u4ef6\u5411\u6211\u53d1\u9001\u5173\u4e8e\u7528\u6237\u7814\u7a76\u6d3b\u52a8\u7684\u4fe1\u606f"
+                }
+              },
+              "setByDefault": false,
+              "optInAggregateValue": 64,
+              "subscriptions": []
+            },
+            {
+              "name": "customer-service",
+              "localization": {
+                "en": {
+                  "title": "Customer Service",
+                  "description": "I allow Bungie to email me about Bungie.net and Destiny service emails."
+                },
+                "fr": {
+                  "title": "Service \u00e0 la client\u00e8le",
+                  "description": "J'autorise Bungie \u00e0 me contacter par courriel au sujet de Bungie.net et des services Destiny."
+                },
+                "es": {
+                  "title": "Servicio de atenci\u00f3n al cliente",
+                  "description": "Permito que Bungie me env\u00ede correos electr\u00f3nicos sobre Bungie.net y el servicio de Destiny."
+                },
+                "de": {
+                  "title": "Kundendienst",
+                  "description": "Ich erlaube Bungie, mir E-Mails \u00fcber Bungie.net und Destiny-Service-E-Mails zu schicken."
+                },
+                "it": {
+                  "title": "Servizio clienti",
+                  "description": "Do il mio consenso per la ricezione di email sui servizi di Destiny e Bungie.net."
+                },
+                "ja": {
+                  "title": "\u30ab\u30b9\u30bf\u30de\u30fc\u30b5\u30fc\u30d3\u30b9",
+                  "description": "Bungie\u304b\u3089\u3001Bungie.net\u3068Destiny\u306e\u30b5\u30fc\u30d3\u30b9\u306b\u95a2\u3059\u308b\u30e1\u30fc\u30eb\u3092\u53d7\u3051\u53d6\u308b\u3002"
+                },
+                "pt-br": {
+                  "title": "Servi\u00e7o ao consumidor",
+                  "description": "Permito que a Bungie me envie mensagens sobre servi\u00e7os Bungie.net e Destiny."
+                },
+                "es-mx": {
+                  "title": "Atenci\u00f3n al cliente",
+                  "description": "Permito que Bungie me env\u00ede correos electr\u00f3nicos sobre Bungie.net y el servicio de Destiny."
+                },
+                "ru": {
+                  "title": "\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439",
+                  "description": "\u042f \u0440\u0430\u0437\u0440\u0435\u0448\u0430\u044e Bungie \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0442\u044c \u043c\u043d\u0435 \u0441\u0435\u0440\u0432\u0438\u0441\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u043e Bungie.net \u0438 Destiny \u043f\u043e \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u0435."
+                },
+                "pl": {
+                  "title": "Obs\u0142uga klienta",
+                  "description": "Zgadzam si\u0119, aby firma Bungie wysy\u0142a\u0142a do mnie wiadomo\u015bci e-mail na temat us\u0142ugowych adres\u00f3w e-mail Bungie.net i Destiny."
+                },
+                "ko": {
+                  "title": "\uace0\uac1d \uc11c\ube44\uc2a4",
+                  "description": "\ubc88\uc9c0\uc5d0\uc11c \ubc88\uc9c0\ub137 \ubc0f \ub370\uc2a4\ud2f0\ub2c8 \uc11c\ube44\uc2a4 \uc774\uba54\uc77c\uc744 \ubcf4\ub0b4\ub3c4\ub85d \ud5c8\uc6a9\ud569\ub2c8\ub2e4."
+                },
+                "zh-cht": {
+                  "title": "\u5ba2\u6236\u670d\u52d9",
+                  "description": "\u6211\u5141\u8a31Bungie\u4f7f\u7528\u96fb\u5b50\u90f5\u4ef6\u901a\u77e5\u6211\u6709\u95dcBungie.net\u8207\u300a\u5929\u547d\u300b\u5ba2\u670d\u96fb\u5b50\u90f5\u4ef6\u3002"
+                },
+                "zh-chs": {
+                  "title": "\u5ba2\u6237\u670d\u52a1",
+                  "description": "\u6211\u5141\u8bb8Bungie\u4f7f\u7528\u7535\u5b50\u90ae\u4ef6\u5411\u6211\u53d1\u9001\u5173\u4e8eBungie.net\u4e0e\u300a\u547d\u8fd0\u300b\u7684\u5ba2\u6237\u670d\u52a1\u90ae\u4ef6\u3002"
+                }
+              },
+              "setByDefault": true,
+              "optInAggregateValue": 18,
+              "subscriptions": []
+            },
+            {
+              "name": "careers",
+              "localization": {
+                "en": {
+                  "title": "Careers",
+                  "description": "I would like to learn more about career opportunities at Bungie."
+                },
+                "fr": {
+                  "title": "Emplois",
+                  "description": "Je souhaite en savoir plus sur les opportunit\u00e9s de carri\u00e8re chez Bungie."
+                },
+                "es": {
+                  "title": "Empleo",
+                  "description": "Quiero m\u00e1s informaci\u00f3n sobre las ofertas de empleo en Bungie."
+                },
+                "de": {
+                  "title": "Jobs",
+                  "description": "Ich w\u00fcrde gerne mehr \u00fcber Berufsaussichten bei Bungie erfahren."
+                },
+                "it": {
+                  "title": "Opportunit\u00e0 di lavoro",
+                  "description": "Desidero saperne di pi\u00f9 sulle opportunit\u00e0 lavorative di Bungie."
+                },
+                "ja": {
+                  "title": "\u63a1\u7528\u60c5\u5831",
+                  "description": "Bungie\u3067\u306e\u30ad\u30e3\u30ea\u30a2\u306b\u3064\u3044\u3066\u3082\u3063\u3068\u8a73\u3057\u304f\u77e5\u308a\u305f\u3044\u3002"
+                },
+                "pt-br": {
+                  "title": "Carreiras",
+                  "description": "Quero saber mais sobre oportunidades de carreira da Bungie."
+                },
+                "es-mx": {
+                  "title": "Empleo",
+                  "description": "Me gustar\u00eda saber m\u00e1s sobre oportunidades de empleo en Bungie."
+                },
+                "ru": {
+                  "title": "\u0412\u0430\u043a\u0430\u043d\u0441\u0438\u0438",
+                  "description": "\u042f \u0445\u043e\u0447\u0443 \u0443\u0437\u043d\u0430\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u0435 \u043e \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044f\u0445 \u0442\u0440\u0443\u0434\u043e\u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u0432 Bungie."
+                },
+                "pl": {
+                  "title": "Kariera",
+                  "description": "Chc\u0119 dowiedzie\u0107 si\u0119 wi\u0119cej na temat mo\u017cliwo\u015bci pracy w Bungie."
+                },
+                "ko": {
+                  "title": "\uc778\uc7ac \ucc44\uc6a9",
+                  "description": "\ubc88\uc9c0 \ucc44\uc6a9 \uc815\ubcf4\uc5d0 \ub300\ud574 \uc880 \ub354 \uc54c\uace0 \uc2f6\uc2b5\ub2c8\ub2e4."
+                },
+                "zh-cht": {
+                  "title": "\u5de5\u4f5c\u6a5f\u6703",
+                  "description": "\u6211\u60f3\u8981\u4e86\u89e3\u66f4\u591a\u6709\u95dc\u65bcBungie\u5de5\u4f5c\u6a5f\u6703\u7684\u8cc7\u8a0a\u3002"
+                },
+                "zh-chs": {
+                  "title": "\u5de5\u4f5c\u673a\u4f1a",
+                  "description": "\u6211\u60f3\u8981\u4e86\u89e3\u66f4\u591a\u5173\u4e8eBungie\u5de5\u4f5c\u673a\u4f1a\u7684\u6d88\u606f\u3002"
+                }
+              },
+              "setByDefault": false,
+              "optInAggregateValue": 256,
+              "subscriptions": []
+            }
+          ]
+        },
+        "edit-settings": {
+          "name": "edit-settings",
+          "viewSettings": [
+            {
+              "name": "newsletters",
+              "localization": {
+                "en": {
+                  "title": "News and Updates",
+                  "description": "I allow Bungie to email me about news and updates as well as tailored messaging on social media."
+                },
+                "fr": {
+                  "title": "Nouvelles et mises \u00e0 jour",
+                  "description": "J'autorise Bungie \u00e0 me contacter par courriel au sujet des derni\u00e8res actus et mises \u00e0 jour, ainsi qu'\u00e0 me faire voir des messages personnalis\u00e9s sur les r\u00e9seaux sociaux."
+                },
+                "es": {
+                  "title": "Novedades y actualizaciones",
+                  "description": "Permito que Bungie me env\u00ede correos electr\u00f3nicos con noticias y actualizaciones, as\u00ed como mensajes personalizados en las redes sociales."
+                },
+                "de": {
+                  "title": "News und Updates",
+                  "description": "Ich erlaube Bungie, mir E-Mails \u00fcber Neuigkeiten und Updates sowie angepasste Nachrichten \u00fcber Social Media zu schicken."
+                },
+                "it": {
+                  "title": "Novit\u00e0 e aggiornamenti",
+                  "description": "Do il mio consenso per la ricezione di novit\u00e0 e aggiornamenti via email e di messaggi personalizzati sui social media."
+                },
+                "ja": {
+                  "title": "\u30cb\u30e5\u30fc\u30b9\u3068\u66f4\u65b0",
+                  "description": "Bungie\u304b\u3089\u3001\u30cb\u30e5\u30fc\u30b9\u3001\u66f4\u65b0\u3001\u30bd\u30fc\u30b7\u30e3\u30eb\u30e1\u30c7\u30a3\u30a2\u4e0a\u3067\u306e\u30ab\u30b9\u30bf\u30de\u30a4\u30ba\u30e1\u30c3\u30bb\u30fc\u30b8\u306b\u95a2\u3059\u308b\u30e1\u30fc\u30eb\u3092\u53d7\u3051\u53d6\u308b\u3002"
+                },
+                "pt-br": {
+                  "title": "Not\u00edcias e atualiza\u00e7\u00f5es",
+                  "description": "Permito que a Bungie me envie mensagens sobre novidades e atualiza\u00e7\u00f5es, bem como mensagens direcionadas em redes sociais."
+                },
+                "es-mx": {
+                  "title": "Noticias y actualizaciones",
+                  "description": "Permito que Bungie me env\u00ede correos electr\u00f3nicos con noticias y actualizaciones, as\u00ed como mensajes personalizados en las redes sociales."
+                },
+                "ru": {
+                  "title": "\u041d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f",
+                  "description": "\u042f \u0440\u0430\u0437\u0440\u0435\u0448\u0430\u044e Bungie \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0442\u044c \u043c\u043d\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u043f\u043e \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u0435 \u0438 \u0438\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0432 \u0441\u043e\u0446\u0441\u0435\u0442\u044f\u0445."
+                },
+                "pl": {
+                  "title": "Nowo\u015bci i aktualno\u015bci",
+                  "description": "Zgadzam si\u0119, aby firma Bungie wysy\u0142a\u0142a do mnie wiadomo\u015bci e-mail na temat news\u00f3w i aktualizacji oraz spersonalizowane wiadomo\u015bci w mediach spo\u0142eczno\u015bciowych."
+                },
+                "ko": {
+                  "title": "\uc18c\uc2dd \ubc0f \uc5c5\ub370\uc774\ud2b8",
+                  "description": "\ubc88\uc9c0\uc5d0\uc11c \uc0c8 \uc18c\uc2dd \ubc0f \uc5c5\ub370\uc774\ud2b8 \uc774\uba54\uc77c\uacfc \uc18c\uc15c \ubbf8\ub514\uc5b4 \ub9de\ucda4 \uba54\uc2dc\uc9c0\ub97c \ubcf4\ub0b4\ub3c4\ub85d \ud5c8\uc6a9\ud569\ub2c8\ub2e4."
+                },
+                "zh-cht": {
+                  "title": "\u6700\u65b0\u8cc7\u8a0a\u53ca\u66f4\u65b0",
+                  "description": "\u6211\u5141\u8a31Bungie\u4f7f\u7528\u96fb\u5b50\u90f5\u4ef6\u901a\u77e5\u6211\u65b0\u805e\u8207\u66f4\u65b0\u8cc7\u8a0a\uff0c\u4ee5\u53ca\u5728\u793e\u7fa4\u5a92\u9ad4\u4e0a\u70ba\u6211\u6240\u8a2d\u8a08\u7684\u8a0a\u606f\u3002"
+                },
+                "zh-chs": {
+                  "title": "\u65b0\u95fb\u4e0e\u66f4\u65b0",
+                  "description": "\u6211\u5141\u8bb8Bungie\u4f7f\u7528\u7535\u5b50\u90ae\u4ef6\u5411\u6211\u53d1\u9001\u65b0\u95fb\u3001\u66f4\u65b0\u4fe1\u606f\uff0c\u4ee5\u53ca\u793e\u4ea4\u5a92\u4f53\u4e0a\u7684\u4e13\u5c5e\u4fe1\u606f\u3002"
+                }
+              },
+              "setByDefault": false,
+              "optInAggregateValue": 45,
+              "subscriptions": []
+            },
+            {
+              "name": "consumer-insights",
+              "localization": {
+                "en": {
+                  "title": "User Research",
+                  "description": "I allow Bungie to email me about user research opportunities"
+                },
+                "fr": {
+                  "title": "Exp\u00e9rience utilisateur",
+                  "description": "J'autorise Bungie \u00e0 me contacter par e-mail \u00e0 des fins d'am\u00e9lioration de l'exp\u00e9rience utilisateur."
+                },
+                "es": {
+                  "title": "Investigaci\u00f3n",
+                  "description": "Doy mi consentimiento para que Bungie me env\u00ede correos electr\u00f3nicos sobre oportunidades de investigaci\u00f3n sobre h\u00e1bitos de juego del usuario."
+                },
+                "de": {
+                  "title": "Nutzerforschung",
+                  "description": "Ich erlaube Bungie, mir E-Mails \u00fcber M\u00f6glichkeiten zur Nutzerforschung zu schicken"
+                },
+                "it": {
+                  "title": "Sondaggio utenti",
+                  "description": "Do il mio consenso per la ricezione di email sulle opportunit\u00e0 di sondaggio utenti."
+                },
+                "ja": {
+                  "title": "\u30e6\u30fc\u30b6\u30fc\u30ea\u30b5\u30fc\u30c1",
+                  "description": "Bungie\u304b\u3089\u3001\u30e6\u30fc\u30b6\u30fc\u30ea\u30b5\u30fc\u30c1\u306b\u95a2\u3059\u308b\u30e1\u30fc\u30eb\u3092\u53d7\u3051\u53d6\u308b\u3002"
+                },
+                "pt-br": {
+                  "title": "Pesquisa de usu\u00e1rio",
+                  "description": "Permito que a Bungie me envie mensagens sobre oportunidades de pesquisa com usu\u00e1rios."
+                },
+                "es-mx": {
+                  "title": "Investigaci\u00f3n de usuarios",
+                  "description": "Acepto que Bungie me env\u00ede correos sobre oportunidades de investigaciones de usuarios"
+                },
+                "ru": {
+                  "title": "\u041e\u043f\u0440\u043e\u0441 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439",
+                  "description": "\u042f \u0440\u0430\u0437\u0440\u0435\u0448\u0430\u044e Bungie \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0442\u044c \u043c\u043d\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u043e \u0431\u0443\u0434\u0443\u0449\u0438\u0445 \u043e\u043f\u0440\u043e\u0441\u0430\u0445 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439 \u0438\u0433\u0440\u044b \u043f\u043e \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u0435."
+                },
+                "pl": {
+                  "title": "Badania nt. u\u017cytkownik\u00f3w",
+                  "description": "Zgadzam si\u0119, aby firma Bungie wysy\u0142a\u0142a do mnie wiadomo\u015bci e-mail zwi\u0105zane z badaniami nt. u\u017cytkownik\u00f3w"
+                },
+                "ko": {
+                  "title": "\uc0ac\uc6a9\uc790 \uc870\uc0ac",
+                  "description": "\ubc88\uc9c0\uc5d0\uc11c \uc0ac\uc6a9\uc790 \uc870\uc0ac \uae30\ud68c \uad00\ub828 \uc774\uba54\uc77c\uc744 \ubcf4\ub0b4\ub3c4\ub85d \ud5c8\uc6a9\ud569\ub2c8\ub2e4."
+                },
+                "zh-cht": {
+                  "title": "\u4f7f\u7528\u8005\u7814\u7a76",
+                  "description": "\u6211\u5141\u8a31Bungie\u4f7f\u7528\u96fb\u5b50\u90f5\u4ef6\u901a\u77e5\u6211\u6709\u95dc\u4f7f\u7528\u8005\u7814\u7a76\u6a5f\u6703\u7684\u8a0a\u606f\u3002"
+                },
+                "zh-chs": {
+                  "title": "\u7528\u6237\u7814\u7a76",
+                  "description": "\u6211\u5141\u8bb8Bungie\u4f7f\u7528\u7535\u5b50\u90ae\u4ef6\u5411\u6211\u53d1\u9001\u5173\u4e8e\u7528\u6237\u7814\u7a76\u6d3b\u52a8\u7684\u4fe1\u606f"
+                }
+              },
+              "setByDefault": false,
+              "optInAggregateValue": 64,
+              "subscriptions": []
+            },
+            {
+              "name": "consumer-insights-local",
+              "localization": {
+                "en": {
+                  "title": "Local User Research",
+                  "description": "I am interested in user research sessions that take place in Bellevue, WA and can provide my own transportation there."
+                },
+                "fr": {
+                  "title": "Exp\u00e9rience utilisateur locale",
+                  "description": "Je suis int\u00e9ress\u00e9 par les sessions d'exp\u00e9rience utilisateur qui ont lieu \u00e0 Bellevue, WA et je dispose de mon propre moyen de transport pour m'y rendre."
+                },
+                "es": {
+                  "title": "Investigaci\u00f3n local",
+                  "description": "Me gustar\u00eda participar en las sesiones de investigaci\u00f3n que tienen lugar en Bellevue (Washington, EE.\u00a0UU.) y puedo conseguir mi propio medio de transporte."
+                },
+                "de": {
+                  "title": "Lokale Nutzerforschung",
+                  "description": "Ich bin an Nutzerforschungssitzungen interessiert, die in Bellevue, WA stattfinden, und kann meinen eigenen Transport dorthin bereitstellen."
+                },
+                "it": {
+                  "title": "Sondaggio utenti locale",
+                  "description": "Mi interessano le sessioni di sondaggio utenti che hanno luogo a Bellevue, WA e posso provvedere al mio trasporto."
+                },
+                "ja": {
+                  "title": "\u30ed\u30fc\u30ab\u30eb\u30e6\u30fc\u30b6\u30fc\u30ea\u30b5\u30fc\u30c1",
+                  "description": "\u79c1\u306f\u30ef\u30b7\u30f3\u30c8\u30f3\u5dde\u30d9\u30eb\u30d3\u30e5\u30fc\u3067\u884c\u308f\u308c\u308b\u30e6\u30fc\u30b6\u30fc\u30ea\u30b5\u30fc\u30c1\u30bb\u30c3\u30b7\u30e7\u30f3\u306b\u8208\u5473\u304c\u3042\u308b\u3002\u4f1a\u5834\u307e\u3067\u306e\u4ea4\u901a\u624b\u6bb5\u306f\u81ea\u5206\u3067\u78ba\u4fdd\u3067\u304d\u308b\u3002"
+                },
+                "pt-br": {
+                  "title": "Pesquisa Local com Usu\u00e1rios",
+                  "description": "Tenho interesse em sess\u00f5es de pesquisa com usu\u00e1rios em Bellevue, WA e posso usar meu pr\u00f3prio meio de transporte para chegar."
+                },
+                "es-mx": {
+                  "title": "Investigaci\u00f3n de usuarios local",
+                  "description": "Me interesan las sesiones de investigaci\u00f3n de usuarios que se llevan a cabo en Bellevue, WA, y puedo llegar all\u00ed por mi cuenta."
+                },
+                "ru": {
+                  "title": "\u041b\u043e\u043a\u0430\u043b\u044c\u043d\u043e\u0435 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439",
+                  "description": "\u042f \u0445\u043e\u0447\u0443 \u043f\u0440\u0438\u043d\u044f\u0442\u044c \u0443\u0447\u0430\u0441\u0442\u0438\u0435 \u0432 \u043c\u0435\u0440\u043e\u043f\u0440\u0438\u044f\u0442\u0438\u044f\u0445 \u0432 \u0440\u0430\u043c\u043a\u0430\u0445 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439 \u0438 \u0441\u043c\u043e\u0433\u0443 \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e \u0434\u043e\u0431\u0440\u0430\u0442\u044c\u0441\u044f \u0434\u043e \u0433\u043e\u0440\u043e\u0434\u0430 \u0411\u0435\u043b\u0432\u044c\u044e, \u0448\u0442\u0430\u0442 \u0412\u0430\u0448\u0438\u043d\u0433\u0442\u043e\u043d."
+                },
+                "pl": {
+                  "title": "Badania lokalne nt. u\u017cytkownik\u00f3w",
+                  "description": "Chc\u0119 wzi\u0105\u0107 udzia\u0142 w badaniach nt. u\u017cytkownik\u00f3w w Bellevue, WA i jestem w stanie zapewni\u0107 sobie w\u0142asny transport."
+                },
+                "ko": {
+                  "title": "\ud604\uc9c0 \uc0ac\uc6a9\uc790 \uc870\uc0ac",
+                  "description": "\uc800\ub294 \uc6cc\uc2f1\ud134 \uc8fc \ubca8\ubdf0\uc5d0\uc11c \uac1c\ucd5c\ud558\ub294 \uc0ac\uc6a9\uc790 \uc870\uc0ac \uc138\uc158\uc5d0 \uad00\uc2ec\uc774 \uc788\uc73c\uba70 \uc138\uc158 \uc7a5\uc18c\uae4c\uc9c0 \uc9c1\uc811 \uc774\ub3d9\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4."
+                },
+                "zh-cht": {
+                  "title": "\u672c\u5730\u4f7f\u7528\u8005\u7814\u7a76",
+                  "description": "\u6211\u5c0d\u65bc\u5728\u83ef\u76db\u9813\u5dde\u8c9d\u723e\u7dad\u5c24\u5e02\u6240\u9032\u884c\u7684\u4f7f\u7528\u8005\u7814\u7a76\u8a08\u756b\u611f\u5230\u6709\u8208\u8da3\uff0c\u4e26\u4e14\u53ef\u4ee5\u81ea\u884c\u524d\u5f80\u3002"
+                },
+                "zh-chs": {
+                  "title": "\u672c\u5730\u7528\u6237\u7814\u7a76",
+                  "description": "\u6211\u6709\u5174\u8da3\u53c2\u4e0e\u4f4d\u5728\u534e\u76db\u987f\u5dde\u8d1d\u5c14\u7ef4\u5c24\u5e02\u7684\u7528\u6237\u7814\u7a76\u8ba1\u5212\uff0c\u5e76\u53ef\u81ea\u884c\u524d\u5f80\u8be5\u5730\u533a\u3002"
+                }
+              },
+              "setByDefault": false,
+              "optInAggregateValue": 128,
+              "subscriptions": []
+            },
+            {
+              "name": "customer-service",
+              "localization": {
+                "en": {
+                  "title": "Customer Service",
+                  "description": "I allow Bungie to email me about Bungie.net and Destiny service emails."
+                },
+                "fr": {
+                  "title": "Service \u00e0 la client\u00e8le",
+                  "description": "J'autorise Bungie \u00e0 me contacter par courriel au sujet de Bungie.net et des services Destiny."
+                },
+                "es": {
+                  "title": "Servicio de atenci\u00f3n al cliente",
+                  "description": "Permito que Bungie me env\u00ede correos electr\u00f3nicos sobre Bungie.net y el servicio de Destiny."
+                },
+                "de": {
+                  "title": "Kundendienst",
+                  "description": "Ich erlaube Bungie, mir E-Mails \u00fcber Bungie.net und Destiny-Service-E-Mails zu schicken."
+                },
+                "it": {
+                  "title": "Servizio clienti",
+                  "description": "Do il mio consenso per la ricezione di email sui servizi di Destiny e Bungie.net."
+                },
+                "ja": {
+                  "title": "\u30ab\u30b9\u30bf\u30de\u30fc\u30b5\u30fc\u30d3\u30b9",
+                  "description": "Bungie\u304b\u3089\u3001Bungie.net\u3068Destiny\u306e\u30b5\u30fc\u30d3\u30b9\u306b\u95a2\u3059\u308b\u30e1\u30fc\u30eb\u3092\u53d7\u3051\u53d6\u308b\u3002"
+                },
+                "pt-br": {
+                  "title": "Servi\u00e7o ao consumidor",
+                  "description": "Permito que a Bungie me envie mensagens sobre servi\u00e7os Bungie.net e Destiny."
+                },
+                "es-mx": {
+                  "title": "Atenci\u00f3n al cliente",
+                  "description": "Permito que Bungie me env\u00ede correos electr\u00f3nicos sobre Bungie.net y el servicio de Destiny."
+                },
+                "ru": {
+                  "title": "\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439",
+                  "description": "\u042f \u0440\u0430\u0437\u0440\u0435\u0448\u0430\u044e Bungie \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0442\u044c \u043c\u043d\u0435 \u0441\u0435\u0440\u0432\u0438\u0441\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u043e Bungie.net \u0438 Destiny \u043f\u043e \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u0435."
+                },
+                "pl": {
+                  "title": "Obs\u0142uga klienta",
+                  "description": "Zgadzam si\u0119, aby firma Bungie wysy\u0142a\u0142a do mnie wiadomo\u015bci e-mail na temat us\u0142ugowych adres\u00f3w e-mail Bungie.net i Destiny."
+                },
+                "ko": {
+                  "title": "\uace0\uac1d \uc11c\ube44\uc2a4",
+                  "description": "\ubc88\uc9c0\uc5d0\uc11c \ubc88\uc9c0\ub137 \ubc0f \ub370\uc2a4\ud2f0\ub2c8 \uc11c\ube44\uc2a4 \uc774\uba54\uc77c\uc744 \ubcf4\ub0b4\ub3c4\ub85d \ud5c8\uc6a9\ud569\ub2c8\ub2e4."
+                },
+                "zh-cht": {
+                  "title": "\u5ba2\u6236\u670d\u52d9",
+                  "description": "\u6211\u5141\u8a31Bungie\u4f7f\u7528\u96fb\u5b50\u90f5\u4ef6\u901a\u77e5\u6211\u6709\u95dcBungie.net\u8207\u300a\u5929\u547d\u300b\u5ba2\u670d\u96fb\u5b50\u90f5\u4ef6\u3002"
+                },
+                "zh-chs": {
+                  "title": "\u5ba2\u6237\u670d\u52a1",
+                  "description": "\u6211\u5141\u8bb8Bungie\u4f7f\u7528\u7535\u5b50\u90ae\u4ef6\u5411\u6211\u53d1\u9001\u5173\u4e8eBungie.net\u4e0e\u300a\u547d\u8fd0\u300b\u7684\u5ba2\u6237\u670d\u52a1\u90ae\u4ef6\u3002"
+                }
+              },
+              "setByDefault": false,
+              "optInAggregateValue": 18,
+              "subscriptions": []
+            },
+            {
+              "name": "careers",
+              "localization": {
+                "en": {
+                  "title": "Careers",
+                  "description": "I would like to learn more about career opportunities at Bungie."
+                },
+                "fr": {
+                  "title": "Emplois",
+                  "description": "Je souhaite en savoir plus sur les opportunit\u00e9s de carri\u00e8re chez Bungie."
+                },
+                "es": {
+                  "title": "Empleo",
+                  "description": "Quiero m\u00e1s informaci\u00f3n sobre las ofertas de empleo en Bungie."
+                },
+                "de": {
+                  "title": "Jobs",
+                  "description": "Ich w\u00fcrde gerne mehr \u00fcber Berufsaussichten bei Bungie erfahren."
+                },
+                "it": {
+                  "title": "Opportunit\u00e0 di lavoro",
+                  "description": "Desidero saperne di pi\u00f9 sulle opportunit\u00e0 lavorative di Bungie."
+                },
+                "ja": {
+                  "title": "\u63a1\u7528\u60c5\u5831",
+                  "description": "Bungie\u3067\u306e\u30ad\u30e3\u30ea\u30a2\u306b\u3064\u3044\u3066\u3082\u3063\u3068\u8a73\u3057\u304f\u77e5\u308a\u305f\u3044\u3002"
+                },
+                "pt-br": {
+                  "title": "Carreiras",
+                  "description": "Quero saber mais sobre oportunidades de carreira da Bungie."
+                },
+                "es-mx": {
+                  "title": "Empleo",
+                  "description": "Me gustar\u00eda saber m\u00e1s sobre oportunidades de empleo en Bungie."
+                },
+                "ru": {
+                  "title": "\u0412\u0430\u043a\u0430\u043d\u0441\u0438\u0438",
+                  "description": "\u042f \u0445\u043e\u0447\u0443 \u0443\u0437\u043d\u0430\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u0435 \u043e \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044f\u0445 \u0442\u0440\u0443\u0434\u043e\u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u0432 Bungie."
+                },
+                "pl": {
+                  "title": "Kariera",
+                  "description": "Chc\u0119 dowiedzie\u0107 si\u0119 wi\u0119cej na temat mo\u017cliwo\u015bci pracy w Bungie."
+                },
+                "ko": {
+                  "title": "\uc778\uc7ac \ucc44\uc6a9",
+                  "description": "\ubc88\uc9c0 \ucc44\uc6a9 \uc815\ubcf4\uc5d0 \ub300\ud574 \uc880 \ub354 \uc54c\uace0 \uc2f6\uc2b5\ub2c8\ub2e4."
+                },
+                "zh-cht": {
+                  "title": "\u5de5\u4f5c\u6a5f\u6703",
+                  "description": "\u6211\u60f3\u8981\u4e86\u89e3\u66f4\u591a\u6709\u95dc\u65bcBungie\u5de5\u4f5c\u6a5f\u6703\u7684\u8cc7\u8a0a\u3002"
+                },
+                "zh-chs": {
+                  "title": "\u5de5\u4f5c\u673a\u4f1a",
+                  "description": "\u6211\u60f3\u8981\u4e86\u89e3\u66f4\u591a\u5173\u4e8eBungie\u5de5\u4f5c\u673a\u4f1a\u7684\u6d88\u606f\u3002"
+                }
+              },
+              "setByDefault": false,
+              "optInAggregateValue": 256,
+              "subscriptions": []
+            }
+          ]
+        }
+      }
+    },
+    "fireteamActivities": [
+      {
+        "identifier": "5",
+        "isDefault": false,
+        "displayName": "Anything",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteamAnything.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/anythingverticalheader.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/anythingHeader.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "6"
+          },
+          { "identifier": "key", "isDefault": false, "summary": "Anything" }
+        ]
+      },
+      {
+        "identifier": "42",
+        "isDefault": false,
+        "displayName": "Events // Guardian Games",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteam_icons_guardiangames.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/guardiangamestall.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/guardiangameswide.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "3"
+          },
+          {
+            "identifier": "key",
+            "isDefault": false,
+            "summary": "GuardianGames"
+          }
+        ]
+      },
+      {
+        "identifier": "39",
+        "isDefault": false,
+        "displayName": "Campaign",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteam_icons_campaign.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/CampaignHardTall.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/CampaignHardWide.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "3"
+          },
+          { "identifier": "key", "isDefault": false, "summary": "Campaign" }
+        ]
+      },
+      {
+        "identifier": "4",
+        "isDefault": false,
+        "displayName": "Nightfall",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteamStrike.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/nightfallverticalheader.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/nightfallHeader.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "3"
+          },
+          { "identifier": "key", "isDefault": false, "summary": "Nightfall" }
+        ]
+      },
+      {
+        "identifier": "3",
+        "isDefault": false,
+        "displayName": "Trials of Osiris",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteamTrialsOfOsiris.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/trialsverticalheader.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/trialsBackground.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "3"
+          },
+          { "identifier": "key", "isDefault": false, "summary": "Trials" }
+        ]
+      },
+      {
+        "identifier": "36",
+        "isDefault": false,
+        "displayName": "30th Anniversary // Dares of Eternity",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteam30thAnniversary.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/fireteamDaresOfEternityVertical.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/fireteamDaresOfEternity.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "6"
+          },
+          {
+            "identifier": "key",
+            "isDefault": false,
+            "summary": "DaresOfEternity"
+          }
+        ]
+      },
+      {
+        "identifier": "27",
+        "isDefault": false,
+        "displayName": "Exotic Quests",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteam_icons_exoticquests.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/fireteamExoticQuestsVertical.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/fireteamExoticQuests.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "3"
+          },
+          { "identifier": "key", "isDefault": false, "summary": "ExoticQuests" }
+        ]
+      },
+      {
+        "identifier": "37",
+        "isDefault": false,
+        "displayName": "Dungeon // Grasp of Avarice",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteamDungeon.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/fireteamGraspOfAvariceVertical.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/fireteamGraspOfAvarice.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "3"
+          },
+          {
+            "identifier": "key",
+            "isDefault": false,
+            "summary": "GraspofAvarice"
+          }
+        ]
+      },
+      {
+        "identifier": "34",
+        "isDefault": false,
+        "displayName": "Dungeon // Prophecy",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteamDungeon.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/prophecyVerticalHeader.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/prophecy.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "3"
+          },
+          { "identifier": "key", "isDefault": false, "summary": "prophecy" }
+        ]
+      },
+      {
+        "identifier": "35",
+        "isDefault": false,
+        "displayName": "Dungeon // Pit of Heresy",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteamDungeon.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/pitofheresyVerticalHeader.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/pitofheresy.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "3"
+          },
+          { "identifier": "key", "isDefault": false, "summary": "pitofhersey" }
+        ]
+      },
+      {
+        "identifier": "33",
+        "isDefault": false,
+        "displayName": "Dungeon // Shattered Throne",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteamDungeon.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/shatteredThroneVerticalHeader.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/shatteredThrone.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "3"
+          },
+          {
+            "identifier": "key",
+            "isDefault": false,
+            "summary": "ShatteredThrone"
+          }
+        ]
+      },
+      {
+        "identifier": "40",
+        "isDefault": false,
+        "displayName": "The Wellspring",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteam_icons_wellspring.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/WellspringTall.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/WellspringWide.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "6"
+          },
+          { "identifier": "key", "isDefault": false, "summary": "Wellspring" }
+        ]
+      },
+      {
+        "identifier": "38",
+        "isDefault": false,
+        "displayName": "Raid // Vow of the Disciple",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteam_icons_throneworldraid.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/throneworldraidtall.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/throneworldraidwide.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "6"
+          },
+          {
+            "identifier": "key",
+            "isDefault": false,
+            "summary": "ThroneWorldRaid"
+          }
+        ]
+      },
+      {
+        "identifier": "28",
+        "isDefault": false,
+        "displayName": "Raid // Vault of Glass",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteam_icons_vaultofglass.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/fireteamVogVertical.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/fireteamVog.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "6"
+          },
+          { "identifier": "key", "isDefault": false, "summary": "VaultOfGlass" }
+        ]
+      },
+      {
+        "identifier": "22",
+        "isDefault": false,
+        "displayName": "Raid // Deep Stone Crypt",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteam_DeepStoneCrypt.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/fireteamDeepStoneCryptVertical.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/fireteamDeepStoneCrypt.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "6"
+          },
+          {
+            "identifier": "key",
+            "isDefault": false,
+            "summary": "DeepStoneCrypt"
+          }
+        ]
+      },
+      {
+        "identifier": "21",
+        "isDefault": false,
+        "displayName": "Raid // Garden of Salvation",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteam_GardenOfSalvation.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/fireteamSalvationVertical.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/fireteamSalvation.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "6"
+          },
+          {
+            "identifier": "key",
+            "isDefault": false,
+            "summary": "RaidGardenOfSalvation"
+          }
+        ]
+      },
+      {
+        "identifier": "20",
+        "isDefault": false,
+        "displayName": "Raid // Last Wish",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteam_LastWish.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/LastWishVertical.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/LastWish.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "6"
+          },
+          { "identifier": "key", "isDefault": false, "summary": "RaidLastWish" }
+        ]
+      },
+      {
+        "identifier": "41",
+        "isDefault": false,
+        "displayName": "Season 16 // Battlegrounds",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteam_icons_season16battlegrounds.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/season16battlegroundstall.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/season16battlegroundswide.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "3"
+          },
+          {
+            "identifier": "key",
+            "isDefault": false,
+            "summary": "Season16Battlegrounds"
+          }
+        ]
+      },
+      {
+        "identifier": "2",
+        "isDefault": false,
+        "displayName": "Crucible",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteamCrucible.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/crucibleverticalheader.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/crucibleHeader.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "6"
+          },
+          { "identifier": "key", "isDefault": false, "summary": "Crucible" }
+        ]
+      },
+      {
+        "identifier": "23",
+        "isDefault": false,
+        "displayName": "Exo Challenge",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteam_SimulationChallenge.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/fireteamsimulationChallengeVertical.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/fireteamsimulationChallenge.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "3"
+          },
+          { "identifier": "key", "isDefault": false, "summary": "ExoChallenge" }
+        ]
+      },
+      {
+        "identifier": "25",
+        "isDefault": false,
+        "displayName": "Empire Hunts",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteam_icons_empirehunts.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/fireteamEmpireHuntsVertical.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/fireteamEmpireHunts.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "3"
+          },
+          { "identifier": "key", "isDefault": false, "summary": "EmpireHunts" }
+        ]
+      },
+      {
+        "identifier": "6",
+        "isDefault": false,
+        "displayName": "Gambit",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteamGambit.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/gambitverticalHeader.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/gambitHeader.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "4"
+          },
+          { "identifier": "key", "isDefault": false, "summary": "Gambit" }
+        ]
+      },
+      {
+        "identifier": "12",
+        "isDefault": false,
+        "displayName": "Nightmare Hunts",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteamNightmareHunts.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/nightmarehuntsverticalHeader.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/nightmareHuntsHeader.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "3"
+          },
+          {
+            "identifier": "key",
+            "isDefault": false,
+            "summary": "NightmareHunts"
+          }
+        ]
+      },
+      {
+        "identifier": "14",
+        "isDefault": false,
+        "displayName": "Altars of Sorrow",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteamAltarsOfSorrow.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/altarsofsorrowverticalheader.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/altarsOfSorrowHeader.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "3"
+          },
+          {
+            "identifier": "key",
+            "isDefault": false,
+            "summary": "AltarsOfSorrow"
+          }
+        ]
+      },
+      {
+        "identifier": "7",
+        "isDefault": false,
+        "displayName": "Blind Well",
+        "imagePath": "/img/theme/destiny/icons/fireteams/fireteamBlindWell.png",
+        "childSettings": [
+          {
+            "identifier": "background",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/blindwellverticalHeader.jpg"
+          },
+          {
+            "identifier": "widebackground",
+            "isDefault": false,
+            "imagePath": "/img/theme/destiny/bgs/fireteams/blindwellHeader.jpg"
+          },
+          {
+            "identifier": "maxfireteamsize",
+            "isDefault": false,
+            "summary": "3"
+          },
+          { "identifier": "key", "isDefault": false, "summary": "BlindWell" }
+        ]
+      }
+    ]
+  
+}
