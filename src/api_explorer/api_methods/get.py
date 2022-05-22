@@ -5,7 +5,7 @@ from aiohttp.client_exceptions import ClientResponseError
 from pathlib import Path
 from urllib.parse import urlencode
 
-from api_explorer.models import *
+from models import *
 from .common import *
 from .factory import url_builder
 
@@ -13,8 +13,8 @@ from .factory import url_builder
 logger = logging.getLogger()
 
 
-__all__ = ('get_user_data', 'get_cleaned_user_names', 'get_vendor_info', 
-           'get_d2_manifest', 'get_bnet_settings', 'search_destiny_entities',
+__all__ = ('get_user_data', 'get_cleaned_user_names', 'get_d2_manifest', 
+           'get_bnet_settings', 'search_destiny_entities',
            'get_historical_stats_definition', 'get_components', 'get_platform_memberships',
            'get_user_inventory', 'get_entity_manifest')
 

@@ -1,7 +1,8 @@
 import typing as t
 from aiohttp import ClientSession
 from aiohttp.client_exceptions import ClientResponseError
-from ..models import *
+
+from .models import *
 from .common import *
 from .factory import url_builder
 

@@ -1,3 +1,4 @@
 from .api import *
-from .user import *
+from .generic import *
 from .inventory import *
+from .user import *

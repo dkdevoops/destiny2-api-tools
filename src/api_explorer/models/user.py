@@ -1,6 +1,6 @@
 import typing as t
 
-from .generic import BaseModel
+from models.generic import BaseModel
 
 
 __all__ = ('DestinyUser', 'UserNames', 'CleanUserNames')

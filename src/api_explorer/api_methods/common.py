@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 from os import environ
 
-from ..models import *
+from models import *
 
 
 load_dotenv()

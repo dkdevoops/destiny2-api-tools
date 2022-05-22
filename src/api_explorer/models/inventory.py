@@ -3,7 +3,7 @@ from enum import Enum
 from datetime import datetime
 from pydantic import validator, root_validator
 
-from .generic import *
+from models.generic import *
 
 
 __all__ = ('D2Profile', 'CharacterType', 'Component', 'ItemPlug', 'ItemSocket', 
